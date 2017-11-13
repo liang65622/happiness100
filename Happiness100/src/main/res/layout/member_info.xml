@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/view"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_message_3"
+            />
+
+        <TextView
+            style="@style/Font_Desc_Black"
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+            android:layout_centerHorizontal="true"
+            android:maxEms="5"
+            android:singleLine="true"
+            android:text="详细信息详细信息"/>
+    </RelativeLayout>
+</LinearLayout>

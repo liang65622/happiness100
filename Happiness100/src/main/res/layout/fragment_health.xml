@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circleAttr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_family_index"
+    >
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/view_experience_tips"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/view_my_health_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_health_user">
+
+                    <TextView
+                        android:id="@+id/tv_my_health_info_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="XXXXXXX的健唐数据"
+                        android:textColor="@color/default_gray"/>
+
+                    <ImageView
+                        android:id="@+id/iv_headimg"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/view_health"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:id="@+id/helpItem"
+                            android:layout_marginRight = "10dp"
+                            android:gravity="center"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/icon_wh"/>
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_centerHorizontal="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="健康得分"/>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/tv_health_score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="--"
+                                    android:textColor="@color/white"
+                                    android:textSize="40sp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/tv_tips_score"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignTop="@+id/tv_health_score"
+                                    android:layout_marginTop="5dp"
+
+                                    android:layout_toRightOf="@+id/tv_health_score"
+                                    android:drawableLeft="@drawable/ic_score_up"
+                                    android:textColor="@color/white"
+                                    android:textSize="6sp"
+                                    android:visibility="gone"/>
+
+                                <TextView
+                                    android:id="@+id/tv_score_unit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignBottom="@+id/tv_health_score"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_toRightOf="@+id/tv_health_score"
+                                    android:text="分"
+                                    android:textColor="@color/white"
+                                    android:textSize="13sp"/>
+
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+
+                    <TextView
+                        android:id="@+id/tv_health_tips"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="3dp"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/view_pressure_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/rl_health_chat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/view_blood_sugar"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/bg_slid_right"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+                            android:src="@drawable/ic_health_slid"
+                            android:textColor="@color/white"
+                            android:textSize="9sp"/>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view_cut_line"
+                        android:layout_width="1px"
+                        android:layout_height="260dp"
+                        android:layout_centerInParent="true"
+                        android:background="@color/white"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/view_blood_pressure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_toLeftOf="@+id/view_cut_line"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="92dp"
+                            android:layout_height="92dp">
+
+                            <com.happiness100.app.ui.widget.MyDonutProgress
+                                android:id="@+id/donut_progress_blood_pressure"
+                                android:layout_width="92dp"
+                                android:layout_height="92dp"
+                                android:layout_gravity="center_horizontal"
+                                circleAttr:donut_finished_color="@color/health_line_color"
+                                circleAttr:donut_finished_stroke_width="@dimen/health_line_width"
+                                circleAttr:donut_unfinished_stroke_width="4dp"/>
+
+                            <LinearLayout
+                                android:id="@+id/ll_xueya_data"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_xueya_data"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="--"
+                                    android:textColor="@color/white"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xueya_s"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+
+                                    android:textColor="@color/white"
+                                    android:textSize="11sp"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xueya_unit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:text="kpa"
+                                    android:textColor="@color/white"
+                                    android:textSize="11sp"/>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_xueya_comp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/ll_xueya_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="3dp"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_xueya_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ll_xueya_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="3dp"
+                                android:textColor="@color/white"
+                                android:textSize="10sp"/>
+
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/tv_blood_pressure_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="3dp"
+                            android:text="血压"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/view_blood_sugar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/view_blood_pressure"
+                        android:layout_alignStart="@+id/view_blood_pressure"
+                        android:layout_below="@+id/view_blood_pressure"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_xuetang"
+                            android:layout_width="92dp"
+                            android:layout_height="92dp">
+
+                            <com.happiness100.app.ui.widget.MyDonutProgress
+                                android:id="@+id/donut_progress_blood_sugar"
+                                android:layout_width="92dp"
+                                android:layout_height="92dp"
+                                circleAttr:donut_finished_color="@color/health_line_color"
+                                circleAttr:donut_finished_stroke_width="8dp"
+                                circleAttr:donut_progress="0"
+                                circleAttr:donut_unfinished_stroke_width="4dp"/>
+
+                            <LinearLayout
+                                android:id="@+id/ll_xuetang_data"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_xuetang_data"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="--"
+                                    android:textColor="@color/white"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xuetang_s"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="11sp"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xuetang_unit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:text="md.dl"
+                                    android:textColor="@color/white"
+                                    android:textSize="11sp"/>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_xuetang_comp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/ll_xuetang_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="3dp"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_xuetang_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ll_xuetang_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="3dp"
+                                android:textColor="@color/white"
+                                android:textSize="10sp"/>
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/iv_xuetang_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="3dp"
+                            android:text="血糖"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/view_heartbeat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="26dp"
+                        android:layout_toRightOf="@+id/view_cut_line"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="92dp"
+                            android:layout_height="92dp">
+
+                            <com.happiness100.app.ui.widget.MyDonutProgress
+                                android:id="@+id/donut_progress_heartbeat"
+                                android:layout_width="92dp"
+                                android:layout_height="92dp"
+                                circleAttr:donut_finished_color="@color/health_line_color"
+                                circleAttr:donut_finished_stroke_width="@dimen/health_line_width"
+                                circleAttr:donut_progress="0"
+                                circleAttr:donut_unfinished_stroke_width="4dp"/>
+
+                            <LinearLayout
+                                android:id="@+id/ll_xintiao_data"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_xintiao_data"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="--"
+                                    android:textColor="@color/white"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xintiao_s"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="11sp"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xintiao_unit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:text="分/次"
+                                    android:textColor="@color/white"
+                                    android:textSize="11sp"/>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_xintiao_comp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/ll_xintiao_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="3dp"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_xintiao_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ll_xintiao_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="3dp"
+                                android:textColor="@color/white"
+                                android:textSize="10sp"/>
+                        </RelativeLayout>
+
+                        <TextView
+
+                            android:id="@+id/tv_xintiao_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="3dp"
+                            android:text="心跳"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/view_heartbeat"
+                        android:layout_below="@+id/view_heartbeat"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="92dp"
+                            android:layout_height="92dp">
+
+                            <com.happiness100.app.ui.widget.MyDonutProgress
+                                android:id="@+id/donut_progress_weight"
+                                android:layout_width="92dp"
+                                android:layout_height="92dp"
+                                circleAttr:donut_content_text="0"
+                                circleAttr:donut_finished_color="@color/health_line_color"
+                                circleAttr:donut_finished_stroke_width="@dimen/health_line_width"
+                                circleAttr:donut_progress="0"
+                                circleAttr:donut_unfinished_stroke_width="4dp"/>
+
+                            <LinearLayout
+                                android:id="@+id/ll_tizhong_data"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_tizhong_data"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="--"
+                                    android:textColor="@color/white"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/tv_tizhong_s"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="11sp"/>
+
+
+                                <TextView
+                                    android:id="@+id/tv_tizhong_unit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:text="kg"
+                                    android:textColor="@color/white"
+                                    android:textSize="11sp"/>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_tizhong_comp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/ll_tizhong_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="3dp"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_tizhong_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ll_tizhong_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="3dp"
+                                android:text="正常"
+                                android:textColor="@color/white"
+                                android:textSize="10sp"
+                                android:visibility="gone"/>
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="3dp"
+                            android:text="体重"
+                            android:textColor="@color/white"
+                            android:textSize="10sp"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/view_experience_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="37dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_health_sign"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="一"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_day_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="07"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/iv_sign1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="二"
+
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_day_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="08"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/iv_sign2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:text="三"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_day_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="09"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/iv_sign3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:text="四"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_day_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="10"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/iv_sign4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="五"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_day_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="11"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/iv_sign5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/discover_gray"
+              android:orientation="vertical">
+
+    <include
+        layout="@layout/common_title"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <GridView
+                    android:id="@+id/memberGridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnWidth="80dp"
+                    android:numColumns="4"
+                    android:stretchMode="columnWidth">
+                </GridView>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gray"></View>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@color/discover_gray"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"></View>
+            <LinearLayout
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_ListItem"
+                android:id="@+id/NameItem"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/bg_default_item_">
+
+                    <TextView
+                        style="@style/Font_Normal_Black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/content_item_nickName_text"
+                    android:text="群名称"
+                    android:layout_centerVertical="true"
+                    />
+
+
+                    <TextView
+                        android:singleLine="true"
+                        android:maxEms="10"
+                        style="@style/Font_Desc"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="仙境传说仙境传说仙境传说仙境传说仙境传说仙境传说仙境传说仙境传说仙境传说"
+                    />
+            </RelativeLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/common_divider"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_ListItem"
+                    android:id="@+id/DontDisturbItem"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:background="@drawable/bg_default_item_"
+                    >
+
+                    <TextView
+                        style="@style/Font_Normal_Black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="消息免打扰"
+                        android:layout_centerVertical="true"
+                        />
+
+
+                    <com.happiness100.app.ui.widget.SwitchView
+                        android:id="@+id/NoDisturbing"
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_arrow_right"/>
+                </RelativeLayout>
+            </LinearLayout>
+                <View
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"></View>
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_ListItem"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:id="@+id/conversationItem_SetCurrentTalkBackgroud_Layout"
+                    >
+                    <TextView
+                        style="@style/Font_Normal_Black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="设置当前聊天背景"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_arrow_right"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"></View>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_ListItem"
+                    android:id="@+id/clearContentButton"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:background="@drawable/bg_default_item_">
+
+                    <TextView
+                        style="@style/Font_Normal_Black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="清空聊天内容"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"></View>
+                <Button
+                    style="@style/Font_Button_White"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/outAndDeleteButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/btn_common_red_pressed"
+                    android:text="退出并删除"
+                    />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"></View>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

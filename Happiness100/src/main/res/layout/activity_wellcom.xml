@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="45dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="45dp"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context="com.happiness100.app.ui.activity.WellcomActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/title_login"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_title_wellcom"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/logo_login"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/iv_title_wellcom"
+      />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="100dp"
+        android:text="@string/btn_login"
+        android:textSize="16sp"
+        style="@style/btn_light_red"
+        android:layout_alignParentBottom="true"
+         />
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="100dp"
+        android:text="@string/btn_register"
+android:textSize="16sp"
+        android:layout_height="36dp"
+        style="@style/btn_light_red"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+      />
+
+</RelativeLayout>

@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.happiness100.app">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="Pickrand.db"/>
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="16"/>
+        <!-- <activity android:name=".ui.activity.MainActivity" /> -->
+        <activity
+            android:name=".ui.activity.LoadingActivity"
+            android:label="@string/title_activity_wellcom"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.WellcomActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <!-- 登录界面 -->
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <!-- 二次登录界面 -->
+        <activity
+            android:name=".ui.activity.LoginSecondActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <!--主界面 -->
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+
+        <!-- 登录遇到问题界面 -->
+        <activity
+            android:name=".ui.activity.LoginHasProblemActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".ui.activity.CodeVerificationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <!--用户信息页面-->
+        <activity
+            android:name=".ui.activity.UserInfoActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+
+        <!--用户信息_修改用户昵称页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_modifyNickname_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--用户信息_个人头像页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_headView_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--用户信息_二维码页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_codeview_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--用户信息_地址页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_address_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--用户信息_修改地址页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_newAddress_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--用户信息_修改性别页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_sex_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--用户信息_修改生日页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_birthday_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--用户信息_修改个性签名页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_PersonSign_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--用户信息_手机页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_mobile_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--用户信息_修改手机页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_mobileChange_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--用户信息_修改手机页面校验验证码页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_verifyMoblieMessage_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--用户信息_修改区域页面-->
+        <activity
+            android:name=".ui.activity.UserInfo_zone_Activity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!-- 设置页面 -->
+        <activity
+            android:name=".ui.activity.Setting_Activity"
+            android:theme="@style/AppTheme.MineBar">
+        </activity>
+        <!-- 设置_账号与安全页面 -->
+        <activity
+            android:name=".ui.activity.Setting_account_Activity"
+            android:theme="@style/AppTheme.MineBar">
+        </activity>
+        <!-- 设置_账号与安全_邮箱页面 -->
+        <activity
+            android:name=".ui.activity.Setting_account_email_Activity"
+            android:theme="@style/AppTheme.MineBar">
+        </activity>
+        <!-- 设置_账号与安全_密码页面 -->
+        <activity
+            android:name=".ui.activity.Setting_account_password"
+            android:theme="@style/AppTheme.MineBar">
+        </activity>
+        <!-- 注册确认界面 -->
+        <activity
+            android:name=".ui.activity.RegisterConfirmActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <!-- 选择国家-->
+        <activity
+            android:name=".ui.widget.country.CountryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <!-- 手机验证码登录界面 -->
+        <activity
+            android:name=".ui.activity.LoginByVercodeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <!--好友界面-->
+        <activity
+            android:name=".ui.activity.FriendsActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--添加好友界面-->
+        <activity
+            android:name=".ui.activity.AddFriendsActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--搜索好友界面-->
+        <activity
+            android:name=".ui.activity.AddFriendSearchActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--QRCode页面-->
+        <activity
+            android:name=".ui.activity.CaptureActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--发起群聊页面-->
+        <activity
+            android:name=".ui.activity.SponsorGroupChatActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--群聊列表界面-->
+        <activity
+            android:name=".ui.activity.MyGroupActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--详细信息页面-->
+        <activity
+            android:name=".ui.activity.FriendDetailActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--聊天详情-->
+        <activity
+            android:name=".ui.activity.ConversationDetailedActicity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--其他人头像页面-->
+        <activity
+            android:name=".ui.activity.ActivityHeadViewForOhter"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--其他人头像页面-->
+        <activity
+            android:name=".ui.activity.CommunicationActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--申请好友验证页面-->
+        <activity
+            android:name=".ui.activity.AddFriendVerificationActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--新的消息界面-->
+        <activity
+            android:name=".ui.activity.NotifyActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--信息设置页面-->
+        <activity
+            android:name=".ui.activity.FriendDataSetActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--修改群名称界面-->
+        <activity
+            android:name=".ui.activity.GroupModifyNameActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--添加群成员页面-->
+        <activity
+            android:name=".ui.activity.GroupAddMemberActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--删除群成员页面-->
+        <activity
+            android:name=".ui.activity.GroupRemoveMemberActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--群组信息界面-->
+        <activity
+            android:name=".ui.activity.GroupDetailActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--群组二维码页面-->
+        <activity
+            android:name=".ui.activity.GroupQRCodeActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--备注页面-->
+        <activity
+            android:name=".ui.activity.RemarkActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--免打扰页面-->
+        <activity
+            android:name=".ui.activity.SettingNewMessageNoDisturbingActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--隐私页面-->
+        <activity
+            android:name=".ui.activity.SettingPrivateActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--新消息通知页面-->
+        <activity
+            android:name=".ui.activity.SettingNewMessageActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--扫描结果页面-->
+        <activity
+            android:name=".ui.activity.QRScanResultActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--找回密码界面-->
+        <activity
+            android:name=".ui.activity.FindPasswordActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--找回密码_邮箱-->
+        <activity
+            android:name=".ui.activity.FindPasswordEmailActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--找回密码_邮箱_确认-->
+        <activity
+            android:name=".ui.activity.FindPasswordEmailEnterActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--登录有问题_找回密码_邮箱-->
+        <activity
+            android:name=".ui.activity.LoginHasProblemEmailActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--修改聊天背景-->
+        <activity
+            android:name=".ui.activity.ConversationModifyBackGroudActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--编辑绑定邮件页面-->
+        <activity
+            android:name=".ui.activity.SettingAccountEmailEditActivity"
+            android:theme="@style/AppTheme.MineBar"
+            >
+        </activity>
+        <!--会话列表界面 -->
+        <activity
+            android:name=".ui.activity.ConversationListActivity"
+            android:label="@string/title_activity_conversation_list"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data
+                    android:host="io.rong.fast"
+                    android:pathPrefix="/conversationlist"
+                    android:scheme="rong"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <!-- 健康图表界面 -->
+        <activity
+            android:name=".ui.activity.HealthChartActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <!-- 会话界面 -->
+        <activity
+            android:name=".ui.activity.ConversationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data
+                    android:host="com.happiness100.app"
+                    android:pathPrefix="/conversation/"
+                    android:scheme="rong"/>
+            </intent-filter>
+        </activity>
+
+
+        <!-- 从通讯录添加家庭成员界面 -->
+        <activity
+            android:name=".ui.activity.FamilyAddMemberActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+        <!-- 家谱界面 -->
+        <activity
+            android:name=".ui.activity.GenealogyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+        <!-- 创建家族界面 -->
+        <activity
+            android:name=".ui.activity.CreateFamilyActiivty"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+
+        <!-- 搜索家族界面 -->
+        <activity
+            android:name=".ui.activity.SearchFamilyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+        <!-- 手机联系人匹配界面 -->
+
+        <!-- 家族申请列表界面 -->
+        <activity
+            android:name=".ui.activity.FamilyApplyListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+
+        <!-- 家族详情界面 -->
+        <activity
+            android:name=".ui.activity.FamilyInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+        <!-- 家族动态界面 -->
+        <activity
+            android:name=".ui.activity.FamilyDynamicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+
+        <!-- 至亲详情界面 -->
+        <activity
+            android:name=".ui.activity.FamilyMemberInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+        <!-- 发送申请界面 -->
+        <activity
+            android:name=".ui.activity.SendApplyToFamilyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+        FamilyListActivity
+        <!-- 切换家族界面 -->
+        <activity
+            android:name=".ui.activity.FamilyListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+        <!-- 排行榜 -->
+        <activity
+            android:name=".ui.activity.FamilyRankActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+        <!-- 完善资料 -->
+        <activity
+            android:name=".ui.activity.CompleteMemberInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+
+        <!-- 选择辈份 -->
+        <activity
+            android:name=".ui.activity.SelectBeifenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+        <!-- 确认邀请加入家族 -->
+        <activity
+            android:name=".ui.activity.AddMemberCommitActiivty"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+
+        <!-- 确认邀请加入家族 -->
+        <activity
+            android:name=".ui.activity.ZuPuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+        <!-- 族谱 添加关系 -->
+        <activity
+            android:name=".ui.activity.ZuPuAddMemberActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+        <!-- 绑定家族 -->
+        <activity
+            android:name=".ui.activity.ZupuBindingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+
+        <activity
+            android:name=".ui.activity.LoginByVerCodeTipsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            >
+        </activity>
+
+        <activity
+            android:name=".ui.activity.Family_HeadView_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            >
+        </activity>
+
+
+        <receiver
+            android:name=".manager.RongCloudPushReceiverManager"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="io.rong.push.intent.MESSAGE_ARRIVED"/>
+                <action android:name="io.rong.push.intent.MI_MESSAGE_ARRIVED"/>
+                <action android:name="io.rong.push.intent.MESSAGE_CLICKED"/>
+                <action android:name="io.rong.push.intent.MI_MESSAGE_CLICKED"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

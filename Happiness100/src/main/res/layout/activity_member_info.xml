@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:circleAttr="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        layout="@layout/common_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:id="@+id/iv_member_img"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:id="@+id/tv_member_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/iv_member_img"
+                    android:ellipsize="end"
+                    android:maxLength="10"
+                    android:text="成员姓名：XXXXX"
+                    android:textColor="@color/gray_deep_common"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:id="@+id/tv_member_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_member_name"
+                    android:layout_below="@+id/tv_member_name"
+                    android:ellipsize="end"
+                    android:maxLength="13"
+                    android:text="成员姓名：XXXXX"
+                    android:textColor="@color/gray_common"
+                    android:textSize="14sp"/>
+
+
+                <TextView
+                    android:id="@+id/tv_happiness_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_member_name"
+                    android:layout_below="@+id/tv_member_note"
+                    android:layout_marginTop="4dp"
+                    android:text="幸福号：XXXX"
+                    android:textColor="@color/common_light_gray"
+                    android:textSize="12sp"/>
+
+
+                <ImageView
+                    android:id="@+id/btn_zufu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_zufu"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:background="@drawable/bg_banner"
+                android:orientation="vertical"
+
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_health_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:textColor="@color/white"
+                            android:textSize="34sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/tv_tips_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/tv_health_score"
+                            android:layout_marginTop="5dp"
+
+                            android:layout_toRightOf="@+id/tv_health_score"
+                            android:drawableLeft="@drawable/ic_score_up"
+                            android:textColor="@color/white"
+                            android:textSize="6sp"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:id="@+id/tv_score_unit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/tv_health_score"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@+id/tv_health_score"
+                            android:text="分"
+                            android:textColor="@color/white"
+                            android:textSize="13sp"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_health_tips"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="3dp"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/view_heartbeat"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/view_cut_line"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="80dp"
+                            android:layout_height="80dp">
+
+                            <com.happiness100.app.ui.widget.MyDonutProgress
+                                android:id="@+id/donut_progress_heartbeat"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                circleAttr:donut_finished_color="@color/health_line_color"
+                                circleAttr:donut_finished_stroke_width="@dimen/health_line_width"
+                                circleAttr:donut_progress="0"
+                                circleAttr:donut_unfinished_stroke_width="4dp"/>
+
+                            <LinearLayout
+                                android:id="@+id/ll_xintiao_data"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_xintiao_data"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="--"
+                                    android:textColor="@color/white"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xintiao_s"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="9sp"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xintiao_unit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:text="分/次"
+                                    android:textColor="@color/white"
+                                    android:textSize="9sp"/>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_xintiao_comp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/ll_xintiao_data"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_xintiao_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ll_xintiao_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="3dp"
+                                android:text="正常"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"/>
+                        </RelativeLayout>
+
+                        <TextView
+
+                            android:id="@+id/tv_xintiao_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="3dp"
+                            android:text="心跳"
+                            android:textColor="@color/white"
+                            android:textSize="8sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/view_blood_pressure"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/view_cut_line"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="80dp"
+                            android:layout_height="80dp">
+
+                            <com.happiness100.app.ui.widget.MyDonutProgress
+                                android:id="@+id/donut_progress_blood_pressure"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center_horizontal"
+                                circleAttr:donut_finished_color="@color/health_line_color"
+                                circleAttr:donut_finished_stroke_width="@dimen/health_line_width"
+                                circleAttr:donut_unfinished_stroke_width="4dp"/>
+
+                            <LinearLayout
+                                android:id="@+id/ll_xueya_data"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_xueya_data"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="--"
+                                    android:textColor="@color/white"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xueya_s"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="9sp"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xueya_unit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:text="kpa"
+                                    android:textColor="@color/white"
+                                    android:textSize="9sp"/>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_xueya_comp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/ll_xueya_data"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_xueya_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ll_xueya_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="3dp"
+                                android:text="正常"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"/>
+
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/tv_blood_pressure_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="3dp"
+                            android:text="血压"
+                            android:textColor="@color/white"
+                            android:textSize="8sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/view_blood_sugar"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/view_blood_pressure"
+                        android:layout_alignStart="@+id/view_blood_pressure"
+                        android:layout_below="@+id/view_blood_pressure"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_xuetang"
+                            android:layout_width="80dp"
+
+                            android:layout_height="80dp">
+
+                            <com.happiness100.app.ui.widget.MyDonutProgress
+                                android:id="@+id/donut_progress_blood_sugar"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                circleAttr:donut_finished_color="@color/health_line_color"
+                                circleAttr:donut_finished_stroke_width="8dp"
+                                circleAttr:donut_progress="0"
+                                circleAttr:donut_unfinished_stroke_width="4dp"/>
+
+                            <LinearLayout
+                                android:id="@+id/ll_xuetang_data"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_xuetang_data"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="--"
+                                    android:textColor="@color/white"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xuetang_s"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="9sp"/>
+
+                                <TextView
+                                    android:id="@+id/tv_xuetang_unit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:text="md.dl"
+                                    android:textColor="@color/white"
+                                    android:textSize="9sp"/>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_xuetang_comp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/ll_xuetang_data"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_xuetang_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ll_xuetang_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="3dp"
+                                android:text="正常"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"/>
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/iv_xuetang_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="3dp"
+                            android:text="血糖"
+                            android:textColor="@color/white"
+                            android:textSize="8sp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/view_heartbeat"
+                        android:layout_below="@+id/view_heartbeat"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            >
+
+                            <com.happiness100.app.ui.widget.MyDonutProgress
+                                android:id="@+id/donut_progress_weight"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                circleAttr:donut_content_text="0"
+                                circleAttr:donut_finished_color="@color/health_line_color"
+                                circleAttr:donut_finished_stroke_width="@dimen/health_line_width"
+                                circleAttr:donut_progress="0"
+                                circleAttr:donut_unfinished_stroke_width="4dp"/>
+
+                            <LinearLayout
+                                android:id="@+id/ll_tizhong_data"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_tizhong_data"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="--"
+                                    android:textColor="@color/white"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/tv_tizhong_s"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="9sp"/>
+
+
+                                <TextView
+                                    android:id="@+id/tv_tizhong_unit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:text="kg"
+                                    android:textColor="@color/white"
+                                    android:textSize="9sp"/>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_tizhong_comp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/ll_tizhong_data"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_tizhong_status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ll_tizhong_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="3dp"
+                                android:text="正常"
+                                android:textColor="@color/white"
+                                android:textSize="8sp"
+                                android:visibility="gone"/>
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="3dp"
+                            android:text="体重"
+                            android:textColor="@color/white"
+                            android:textSize="8sp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/common_divider"
+                android:dividerPadding="6dp"
+                android:orientation="vertical"
+
+                android:showDividers="middle">
+
+                <RelativeLayout
+                    android:id="@+id/content_item_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_default_item_"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/content_item_address_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="设置备注和标签"
+                        />
+
+                    <ImageView
+                        android:id="@+id/content_item_address_go"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_arrow_right"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_default_item_"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_area_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="地区"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_area"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/tv_area_title"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_arrow_right"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_default_item_"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_more_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="更多"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_arrow_right"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/common_divider"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_send_message"
+                    style="@style/btn_red_deep"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="发消息"/>
+
+                <Button
+                    android:id="@+id/btn_iving_gifts"
+                    style="@style/btn_white"
+
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="送礼物"/>
+
+                <Button
+                    android:id="@+id/btn_update_nickname"
+                    style="@style/btn_white"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="更改称谓"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/btn_set_manager"
+                    style="@style/btn_white"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="提升为管理员"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/btn_remove_from_family"
+                    style="@style/btn_white"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="移除家族"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

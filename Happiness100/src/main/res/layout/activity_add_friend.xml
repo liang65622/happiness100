@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/discover_gray"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include
+        layout="@layout/common_title"></include>
+
+    <RelativeLayout
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="@dimen/space_ListItem"
+        android:padding="10dp"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_image"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_ss"/>
+
+        <TextView
+            style="@style/Font_Normal_Gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号/手机号/邮箱"
+            android:layout_toRightOf="@+id/search_image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            style="@style/Font_Desc"
+            android:id="@+id/myUserId"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="我的账号："
+            />
+    </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_common_white_normal"
+            >
+
+
+            <RelativeLayout
+                android:id="@+id/scanview"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_sm2"
+                    android:id="@+id/scan_image"
+                    />
+
+                <TextView
+                    style="@style/Font_Normal_Black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="扫一扫"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/scan_text"
+                    android:layout_alignTop="@+id/scan_image"
+                    android:layout_toRightOf="@+id/scan_image"
+                    />
+                <TextView
+                    style="@style/Font_Desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="扫描二维码名片"
+                    android:layout_below="@+id/scan_text"
+                    android:layout_alignLeft="@+id/scan_text"
+                    />
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_divider"/>
+
+            <RelativeLayout
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:id="@+id/address_list"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_txl2"
+                    android:id="@+id/address_list_image"
+                    />
+
+                <TextView
+                    style="@style/Font_Normal_Black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="从手机通讯录中添加"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/address_list_text"
+                    android:layout_alignTop="@+id/address_list_image"
+                    android:layout_toRightOf="@+id/address_list_image"
+                    />
+                <TextView
+                    style="@style/Font_Desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="添加或邀请通讯录中的朋友"
+                    android:layout_below="@+id/address_list_text"
+                    android:layout_alignLeft="@+id/address_list_text"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

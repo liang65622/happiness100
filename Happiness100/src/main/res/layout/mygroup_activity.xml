@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:background="@color/discover_gray"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/common_title"></include>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/nomygroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂时没有加入任何群组..."
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            />
+
+        <com.happiness100.app.ui.widget.pulltorefresh.PullToRefreshListView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/mygrouplistview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:dividerHeight="0dip"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:scrollbars="none"
+            android:smoothScrollbar="true"
+            app:ptrAnimationStyle="flip" />
+    </FrameLayout>
+</LinearLayout>

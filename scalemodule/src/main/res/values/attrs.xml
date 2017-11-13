@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="CustRelativeLayout">
+        <attr name="autoScale" format="boolean" />
+        <attr name="deviceWidth" format="integer" />
+        <attr name="deviceHeight" format="integer" />
+    </declare-styleable>
+</resources>

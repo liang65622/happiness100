@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <Button
+        style="@style/Font_Middle_Black"
+        android:id="@+id/btn_find_back_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="@string/find_back_password"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/text_line_color" />
+
+    <Button
+        style="@style/Font_Middle_Black"
+        android:id="@+id/btn_register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="@string/btn_register"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/text_line_color" />
+
+    <Button
+        style="@style/Font_Middle_Gray"
+        android:id="@+id/btn_go_to_security_center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="前往安全中心"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/text_line_color" />
+
+    <Button
+        style="@style/Font_Middle_Gray"
+        android:id="@+id/btn_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="取消"/>
+
+
+</LinearLayout>

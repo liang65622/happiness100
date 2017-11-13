@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:background="@drawable/bg_default_item_"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/itemView"
+            android:layout_width="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="70dp">
+            <ImageView
+                android:id="@+id/ViewImage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/rc_default_portrait"/>
+
+            <TextView
+                style="@style/Font_Normal_Black"
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/ViewImage"
+                android:layout_alignTop="@+id/ViewImage"
+                android:layout_marginTop="5dp"
+                android:text="阿明"/>
+
+            <TextView
+                style="@style/Font_Desc"
+                android:id="@+id/text2"
+                android:singleLine="true"
+                android:maxEms="15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:layout_alignLeft="@+id/text1"
+
+                android:layout_marginTop="5dp"
+                android:text="阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明阿明"/>
+
+            <RelativeLayout
+                android:layout_centerVertical="true"
+                android:layout_marginRight="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    style="@style/Font_Button_Black"
+                    android:gravity="center"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/button"
+                    android:text = "添加"
+                    android:background="@drawable/btn_common_white"
+                    />
+                <TextView
+                    android:visibility="gone"
+                    style="@style/Font_Desc"
+                    android:gravity="center"
+                    android:id="@+id/rightText"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:text="已添加"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/text_line_color" />
+    </LinearLayout>
+</LinearLayout>

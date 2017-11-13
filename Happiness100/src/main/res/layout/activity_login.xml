@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.happiness100.app.ui.activity.RegisterActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/view_edit_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/common_divider"
+        android:orientation="vertical"
+        android:showDividers="beginning"
+        >
+
+        <include
+            layout="@layout/layout_title_login"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/common_divider"
+            android:orientation="vertical"
+            android:paddingLeft="6dp"
+            android:showDividers="middle|end">
+
+            <RelativeLayout
+                android:id="@+id/view_select_country"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_country_title"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/country"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tv_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tv_country_title"
+                    android:layout_toRightOf="@+id/tv_country_title"
+                    android:text="中国"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_arrow_right"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_country_num"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="+86"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/edit_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/tv_country_num"
+                    android:layout_toRightOf="@+id/tv_country_num"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请填写手机号/邮箱地址/幸福号"
+                    android:textColorHint="@color/common_light_gray"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_password_title"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/password"
+                    android:textColor="@color/black"
+                    />
+
+                <EditText
+                    android:id="@+id/edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tv_password_title"
+                    android:background="@null"
+                    android:hint="@string/pls_input_password"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/common_light_gray"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_pale_red"
+            android:text="@string/btn_login"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_login_by_vcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_edit_login"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/login_by_vcode"
+        android:textColor="@color/common_light_blue"/>
+
+    <TextView
+        android:id="@+id/tv_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/more"
+        android:textColor="@color/common_light_blue"/>
+
+</RelativeLayout>

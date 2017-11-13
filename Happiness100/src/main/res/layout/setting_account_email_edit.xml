@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include
+        layout="@layout/common_title"></include>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@drawable/common_divider"/>
+
+    <com.happiness100.app.ui.widget.ClearWriteEditText
+        android:singleLine="true"
+        android:id="@+id/newemail_edit"
+        style="@style/Font_Normal_Edit"
+        android:hint="你的新邮箱地址"
+        android:background="@drawable/selector_item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_ListItem"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@drawable/common_divider"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        style="@style/Font_Desc"
+        android:text="请输入邮箱地址，你可以用验证过的邮箱来找回幸福100密码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

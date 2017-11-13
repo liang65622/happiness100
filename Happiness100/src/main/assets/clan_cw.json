@@ -1,0 +1,1315 @@
+[
+  {
+    "cwId": "100",
+    "cw": "自己",
+    "husband": "N_丈夫C_102",
+    "wife": "N_妻子C_101",
+    "father": "N_父亲C_103",
+    "mother": "N_母亲C_104",
+    "elderBrother": "哥C_105",
+    "youngBrother": "弟C_107",
+    "elderSister": "姐C_106",
+    "youngSister": "妹C_108",
+    "son": "儿子C_168",
+    "daughter": "女儿C_170"
+  },
+  {
+    "cwId": "101",
+    "cw": "妻子",
+    "father": "N_岳父C_192",
+    "mother": "N_岳母C_193",
+    "elderBrother": "舅子C_235",
+    "youngBrother": "舅子C_235",
+    "elderSister": "姨子C_238",
+    "youngSister": "姨子C_238",
+    "son": "儿子C_168",
+    "daughter": "女儿C_170"
+  },
+  {
+    "cwId": "102",
+    "cw": "丈夫",
+    "father": "N_公公C_194",
+    "mother": "N_婆婆C_195",
+    "elderBrother": "叔子C_236",
+    "youngBrother": "叔子C_236",
+    "elderSister": "姑子C_239",
+    "youngSister": "姑子C_239",
+    "son": "儿子C_168",
+    "daughter": "女儿C_170"
+  },
+  {
+    "cwId": "103",
+    "cw": "父亲",
+    "wife": "N_母亲C_104",
+    "father": "N_祖父C_139",
+    "mother": "N_祖母C_140",
+    "elderBrother": "伯父C_113",
+    "youngBrother": "叔叔C_115",
+    "elderSister": "姑妈C_240",
+    "youngSister": "姑妈C_240",
+    "son": "哥C_105/弟C_107",
+    "daughter": "姐C_106/妹C_108"
+  },
+  {
+    "cwId": "104",
+    "cw": "母亲",
+    "husband": "N_父亲C_103",
+    "father": "N_外祖父C_141",
+    "mother": "N_外祖母C_142",
+    "elderBrother": "舅舅C_119",
+    "youngBrother": "舅舅C_119",
+    "elderSister": "姨妈C_121",
+    "youngSister": "姨妈C_121",
+    "son": "哥C_105/弟C_107",
+    "daughter": "姐C_106/妹C_108"
+  },
+  {
+    "cwId": "105",
+    "cw": "哥",
+    "wife": "嫂子C_206",
+    "father": "N_父亲C_103",
+    "mother": "N_母亲C_104",
+    "elderBrother": "哥C_105",
+    "youngBrother": "哥C_105/弟C_107",
+    "elderSister": "姐C_106",
+    "youngSister": "姐C_106/妹C_108",
+    "son": "侄子C_110",
+    "daughter": "侄女C_109"
+  },
+  {
+    "cwId": "106",
+    "cw": "姐",
+    "husband": "姐夫C_204",
+    "father": "N_父亲C_103",
+    "mother": "N_母亲C_104",
+    "elderBrother": "哥C_105",
+    "youngBrother": "哥C_105/弟C_107",
+    "elderSister": "姐C_106",
+    "youngSister": "姐C_106/妹C_108",
+    "son": "外甥C_111",
+    "daughter": "外甥女C_112"
+  },
+  {
+    "cwId": "107",
+    "cw": "弟",
+    "wife": "弟媳C_207",
+    "father": "N_父亲C_103",
+    "mother": "N_母亲C_104",
+    "elderBrother": "哥C_105/弟C_107",
+    "youngBrother": "弟C_107",
+    "elderSister": "姐C_106/妹C_108",
+    "youngSister": "妹C_108",
+    "son": "侄子C_110",
+    "daughter": "侄女C_109"
+  },
+  {
+    "cwId": "108",
+    "cw": "妹",
+    "husband": "妹夫C_205",
+    "father": "N_父亲C_103",
+    "mother": "N_母亲C_104",
+    "elderBrother": "哥C_105/弟C_107",
+    "youngBrother": "弟C_107",
+    "elderSister": "姐C_106/妹C_108",
+    "youngSister": "妹C_108",
+    "son": "外甥C_111",
+    "daughter": "外甥女C_112"
+  },
+  {
+    "cwId": "109",
+    "cw": "侄女",
+    "husband": "侄女婿C_208",
+    "father": "哥C_105/弟C_107",
+    "mother": "嫂子C_206/弟媳C_207",
+    "elderBrother": "侄子C_110",
+    "youngBrother": "侄子C_110",
+    "elderSister": "侄女C_109",
+    "youngSister": "侄女C_109",
+    "son": "侄孙儿C_245",
+    "daughter": "侄孙女C_247"
+  },
+  {
+    "cwId": "110",
+    "cw": "侄子",
+    "wife": "侄媳妇C_209",
+    "father": "哥C_105/弟C_107",
+    "mother": "嫂子C_206/弟媳C_207",
+    "elderBrother": "侄子C_110",
+    "youngBrother": "侄子C_110",
+    "elderSister": "侄女C_109",
+    "youngSister": "侄女C_109",
+    "son": "侄孙儿C_245",
+    "daughter": "侄孙女C_247"
+  },
+  {
+    "cwId": "111",
+    "cw": "外甥",
+    "wife": "外甥媳妇C_211",
+    "father": "姐夫C_204/妹夫C_205",
+    "mother": "姐C_106/妹C_108",
+    "elderBrother": "外甥C_111",
+    "youngBrother": "外甥C_111",
+    "elderSister": "外甥女C_112",
+    "youngSister": "外甥女C_112",
+    "son": "外甥孙儿C_246",
+    "daughter": "外甥孙女C_248"
+  },
+  {
+    "cwId": "112",
+    "cw": "外甥女",
+    "husband": "外甥女婿C_210",
+    "father": "姐夫C_204/妹夫C_205",
+    "mother": "姐C_106/妹C_108",
+    "elderBrother": "外甥C_111",
+    "youngBrother": "外甥C_111",
+    "elderSister": "外甥女C_112",
+    "youngSister": "外甥女C_112",
+    "son": "外甥孙儿C_246",
+    "daughter": "外甥孙女C_248"
+  },
+  {
+    "cwId": "113",
+    "cw": "伯父",
+    "wife": "伯母C_114",
+    "father": "N_祖父C_139",
+    "mother": "N_祖母C_140",
+    "elderBrother": "伯父C_113",
+    "youngBrother": "伯父C_113/叔叔C_115",
+    "elderSister": "姑姑C_118",
+    "youngSister": "姑姑C_118",
+    "son": "堂哥C_123",
+    "daughter": "堂姐C_124"
+  },
+  {
+    "cwId": "114",
+    "cw": "伯母",
+    "husband": "伯父C_113",
+    "father": "姥爷C_156",
+    "mother": "姥姥C_157",
+    "elderBrother": "舅舅C_119",
+    "youngBrother": "舅舅C_119",
+    "elderSister": "姨妈C_121",
+    "youngSister": "姨妈C_121",
+    "son": "堂哥C_123",
+    "daughter": "堂姐C_124"
+  },
+  {
+    "cwId": "115",
+    "cw": "叔叔",
+    "wife": "婶婶C_116",
+    "father": "N_祖父C_139",
+    "mother": "N_祖母C_140",
+    "elderBrother": "伯父C_113/叔叔C_115",
+    "youngBrother": "叔叔C_115",
+    "elderSister": "姑姑C_118",
+    "youngSister": "姑姑C_118",
+    "son": "堂哥C_123",
+    "daughter": "堂姐C_124"
+  },
+  {
+    "cwId": "116",
+    "cw": "婶婶",
+    "husband": "叔叔C_115",
+    "father": "姥爷C_156",
+    "mother": "姥姥C_157",
+    "elderBrother": "舅舅C_119",
+    "youngBrother": "舅舅C_119",
+    "elderSister": "姨妈C_121",
+    "youngSister": "姨妈C_121",
+    "son": "堂哥C_123",
+    "daughter": "堂姐C_124"
+  },
+  {
+    "cwId": "117",
+    "cw": "姑父",
+    "wife": "姑姑C_118",
+    "father": "伯祖父C_228",
+    "mother": "伯祖母C_231",
+    "elderBrother": "伯伯C_237",
+    "youngBrother": "伯伯C_237",
+    "elderSister": "姑妈C_240",
+    "youngSister": "姑妈C_240",
+    "son": "表哥C_127",
+    "daughter": "表姐C_128"
+  },
+  {
+    "cwId": "118",
+    "cw": "姑姑",
+    "husband": "姑父C_117",
+    "father": "N_祖父C_139",
+    "mother": "N_祖母C_140",
+    "elderBrother": "伯父C_113/叔叔C_115",
+    "youngBrother": "伯父C_113/叔叔C_115",
+    "elderSister": "姑姑C_118",
+    "youngSister": "姑姑C_118",
+    "son": "表哥C_127",
+    "daughter": "表姐C_128"
+  },
+  {
+    "cwId": "119",
+    "cw": "舅舅",
+    "wife": "舅妈C_120",
+    "father": "N_外祖父C_141",
+    "mother": "N_外祖母C_142",
+    "elderBrother": "舅舅C_119",
+    "youngBrother": "舅舅C_119",
+    "elderSister": "姨妈C_121",
+    "youngSister": "姨妈C_121",
+    "son": "表哥C_127",
+    "daughter": "表姐C_128"
+  },
+  {
+    "cwId": "120",
+    "cw": "舅妈",
+    "husband": "舅舅C_119",
+    "father": "姥爷C_156",
+    "mother": "姥姥C_157",
+    "elderBrother": "舅舅C_119",
+    "youngBrother": "舅舅C_119",
+    "elderSister": "姨妈C_121",
+    "youngSister": "姨妈C_121",
+    "son": "表哥C_127",
+    "daughter": "表姐C_128"
+  },
+  {
+    "cwId": "121",
+    "cw": "姨妈",
+    "husband": "姨父C_122",
+    "father": "N_外祖父C_141",
+    "mother": "N_外祖母C_142",
+    "elderBrother": "舅舅C_119",
+    "youngBrother": "舅舅C_119",
+    "elderSister": "姨妈C_121",
+    "youngSister": "姨妈C_121",
+    "son": "表哥C_127",
+    "daughter": "表姐C_128"
+  },
+  {
+    "cwId": "122",
+    "cw": "姨父",
+    "wife": "姨妈C_121",
+    "father": "伯祖父C_228",
+    "mother": "伯祖母C_231",
+    "elderBrother": "伯伯C_237",
+    "youngBrother": "伯伯C_237",
+    "elderSister": "姑妈C_240",
+    "youngSister": "姑妈C_240",
+    "son": "表哥C_127",
+    "daughter": "表姐C_128"
+  },
+  {
+    "cwId": "123",
+    "cw": "堂哥",
+    "wife": "堂嫂C_220",
+    "father": "伯父C_113/叔叔C_115",
+    "mother": "伯母C_114/婶婶C_116",
+    "elderBrother": "堂哥C_123",
+    "youngBrother": "堂哥C_123/堂弟C_125",
+    "elderSister": "堂姐C_124/堂妹C_126",
+    "youngSister": "堂姐C_124/堂妹C_126",
+    "son": "堂侄子C_133",
+    "daughter": "堂侄女C_134"
+  },
+  {
+    "cwId": "124",
+    "cw": "堂姐",
+    "husband": "堂姐夫C_212",
+    "father": "伯父C_113/叔叔C_115",
+    "mother": "伯母C_114/婶婶C_116",
+    "elderBrother": "堂哥C_123",
+    "youngBrother": "堂哥C_123/堂弟C_125",
+    "elderSister": "堂姐C_124/堂妹C_126",
+    "youngSister": "堂姐C_124/堂妹C_126",
+    "son": "堂外甥C_131",
+    "daughter": "堂外甥女C_132"
+  },
+  {
+    "cwId": "125",
+    "cw": "堂弟",
+    "wife": "堂弟媳C_221",
+    "father": "伯父C_113/叔叔C_115",
+    "mother": "伯母C_114/婶婶C_116",
+    "elderBrother": "堂哥C_123",
+    "youngBrother": "堂弟C_125",
+    "elderSister": "堂姐C_124/堂妹C_126",
+    "youngSister": "堂妹C_126",
+    "son": "堂侄子C_133",
+    "daughter": "堂侄女C_134"
+  },
+  {
+    "cwId": "126",
+    "cw": "堂妹",
+    "husband": "堂妹夫C_213",
+    "father": "伯父C_113/叔叔C_115",
+    "mother": "伯母C_114/婶婶C_116",
+    "elderBrother": "堂哥C_123",
+    "youngBrother": "堂弟C_125",
+    "elderSister": "堂妹C_126",
+    "youngSister": "堂姐C_124/堂妹C_126",
+    "son": "堂外甥C_131",
+    "daughter": "堂外甥女C_132"
+  },
+  {
+    "cwId": "127",
+    "cw": "表哥",
+    "wife": "表嫂C_222",
+    "father": "舅舅C_119",
+    "mother": "舅妈C_120",
+    "elderBrother": "表哥C_127",
+    "youngBrother": "表哥C_127/表弟C_129",
+    "elderSister": "表姐C_128",
+    "youngSister": "表姐C_128/表妹C_130",
+    "son": "表侄子C_137",
+    "daughter": "表侄女C_138"
+  },
+  {
+    "cwId": "128",
+    "cw": "表姐",
+    "husband": "表姐夫C_214",
+    "father": "舅舅C_119",
+    "mother": "舅妈C_120",
+    "elderBrother": "表哥C_127",
+    "youngBrother": "表哥C_127/表弟C_129",
+    "elderSister": "表姐C_128",
+    "youngSister": "表姐C_128/表妹C_130",
+    "son": "表外甥C_135",
+    "daughter": "表外甥女C_136"
+  },
+  {
+    "cwId": "129",
+    "cw": "表弟",
+    "wife": "表弟媳C_223",
+    "father": "舅舅C_119",
+    "mother": "舅妈C_120",
+    "elderBrother": "表哥C_127/表弟C_129",
+    "youngBrother": "表弟C_129",
+    "elderSister": "表姐C_128",
+    "youngSister": "表姐C_128/表妹C_130",
+    "son": "表侄子C_137",
+    "daughter": "表侄女C_138"
+  },
+  {
+    "cwId": "130",
+    "cw": "表妹",
+    "husband": "表妹夫C_215",
+    "father": "舅舅C_119",
+    "mother": "舅妈C_120",
+    "elderBrother": "表哥C_127/表弟C_129",
+    "youngBrother": "表弟C_129",
+    "elderSister": "表姐C_128",
+    "youngSister": "表姐C_128/表妹C_130",
+    "son": "表外甥C_135",
+    "daughter": "表外甥女C_136"
+  },
+  {
+    "cwId": "131",
+    "cw": "堂外甥",
+    "wife": "堂外甥媳C_224",
+    "father": "堂姐夫C_212/堂妹夫C_213",
+    "mother": "堂姐C_124/堂妹C_126",
+    "elderBrother": "堂外甥C_131",
+    "youngBrother": "堂外甥C_131",
+    "elderSister": "堂外甥女C_132",
+    "youngSister": "堂外甥女C_132",
+    "son": "堂外甥孙C_241",
+    "daughter": "堂外甥孙女C_249"
+  },
+  {
+    "cwId": "132",
+    "cw": "堂外甥女",
+    "husband": "堂外甥婿C_216",
+    "father": "堂姐夫C_212/堂妹夫C_213",
+    "mother": "堂姐C_124/堂妹C_126",
+    "elderBrother": "堂外甥C_131",
+    "youngBrother": "堂外甥C_131",
+    "elderSister": "堂外甥女C_132",
+    "youngSister": "堂外甥女C_132",
+    "son": "堂外甥孙C_241",
+    "daughter": "堂外甥孙女C_249"
+  },
+  {
+    "cwId": "133",
+    "cw": "堂侄子",
+    "wife": "堂侄媳妇C_225",
+    "father": "堂哥C_123/堂弟C_125",
+    "mother": "堂嫂C_220/堂弟媳C_221",
+    "elderBrother": "堂侄子C_133",
+    "youngBrother": "堂侄子C_133",
+    "elderSister": "堂侄女C_134",
+    "youngSister": "堂侄女C_134",
+    "son": "堂侄孙儿C_242",
+    "daughter": "堂侄孙女C_250"
+  },
+  {
+    "cwId": "134",
+    "cw": "堂侄女",
+    "husband": "堂侄女婿C_217",
+    "father": "堂哥C_123/堂弟C_125",
+    "mother": "堂嫂C_220/堂弟媳C_221",
+    "elderBrother": "堂侄子C_133",
+    "youngBrother": "堂侄子C_133",
+    "elderSister": "堂侄女C_134",
+    "youngSister": "堂侄女C_134",
+    "son": "堂侄孙儿C_242",
+    "daughter": "堂侄孙女C_250"
+  },
+  {
+    "cwId": "135",
+    "cw": "表外甥",
+    "wife": "表外甥媳C_226",
+    "father": "表姐夫C_214/表妹夫C_215",
+    "mother": "表姐C_128/表妹C_130",
+    "elderBrother": "表外甥C_135",
+    "youngBrother": "表外甥C_135",
+    "elderSister": "表外甥女C_136",
+    "youngSister": "表外甥女C_136",
+    "son": "表外甥孙C_243",
+    "daughter": "表外甥孙女C_251"
+  },
+  {
+    "cwId": "136",
+    "cw": "表外甥女",
+    "husband": "表外甥婿C_218",
+    "father": "表姐夫C_214/表妹夫C_215",
+    "mother": "表姐C_128/表妹C_130",
+    "elderBrother": "表外甥C_135",
+    "youngBrother": "表外甥C_135",
+    "elderSister": "表外甥女C_136",
+    "youngSister": "表外甥女C_136",
+    "son": "表外甥孙C_243",
+    "daughter": "表外甥孙女C_251"
+  },
+  {
+    "cwId": "137",
+    "cw": "表侄子",
+    "wife": "表侄媳妇C_227",
+    "father": "表哥C_127/表弟C_129",
+    "mother": "表嫂C_222/表弟媳C_223",
+    "elderBrother": "表侄子C_137",
+    "youngBrother": "表侄子C_137",
+    "elderSister": "表侄女C_138",
+    "youngSister": "表侄女C_138",
+    "son": "堂外甥孙C_241",
+    "daughter": "堂外甥孙女C_249"
+  },
+  {
+    "cwId": "138",
+    "cw": "表侄女",
+    "husband": "表侄女婿C_219",
+    "father": "表哥C_127/表弟C_129",
+    "mother": "表嫂C_222/表弟媳C_223",
+    "elderBrother": "表侄子C_137",
+    "youngBrother": "表侄子C_137",
+    "elderSister": "表侄女C_138",
+    "youngSister": "表侄女C_138",
+    "son": "堂外甥孙C_241",
+    "daughter": "堂外甥孙女C_249"
+  },
+  {
+    "cwId": "139",
+    "cw": "祖父",
+    "wife": "N_祖母C_140",
+    "father": "太爷C_229",
+    "mother": "太奶C_232",
+    "elderBrother": "伯爷爷C_145",
+    "youngBrother": "伯爷爷C_145",
+    "elderSister": "姑奶奶C_143",
+    "youngSister": "姑奶奶C_143",
+    "son": "表伯C_147/表叔C_148",
+    "daughter": "表姑妈C_150"
+  },
+  {
+    "cwId": "140",
+    "cw": "祖母",
+    "husband": "N_祖父C_139",
+    "father": "太爷C_229",
+    "mother": "太婆C_233",
+    "elderBrother": "舅爷C_152",
+    "youngBrother": "舅爷C_152",
+    "elderSister": "舅奶奶C_153",
+    "youngSister": "舅奶奶C_153",
+    "son": "表伯C_147/表叔C_148",
+    "daughter": "表姑妈C_150"
+  },
+  {
+    "cwId": "141",
+    "cw": "外祖父",
+    "wife": "N_外祖母C_142",
+    "father": "太姥爷C_230",
+    "mother": "太姥姥C_234",
+    "elderBrother": "姥爷C_156",
+    "youngBrother": "姥爷C_156",
+    "elderSister": "姑姥姥C_158",
+    "youngSister": "姑姥姥C_158",
+    "son": "表舅舅C_164",
+    "daughter": "表姨妈C_167"
+  },
+  {
+    "cwId": "142",
+    "cw": "外祖母",
+    "husband": "N_外祖父C_141",
+    "father": "太姥爷C_230",
+    "mother": "太姥姥C_234",
+    "elderBrother": "舅姥爷C_160",
+    "youngBrother": "舅姥姥C_161",
+    "elderSister": "姨姥姥C_163",
+    "youngSister": "姨姥姥C_163",
+    "son": "表舅舅C_164",
+    "daughter": "表姨妈C_167"
+  },
+  {
+    "cwId": "143",
+    "cw": "姑奶奶",
+    "husband": "姑爷爷C_144",
+    "father": "太爷C_229",
+    "mother": "太奶C_232",
+    "elderBrother": "伯爷爷C_145",
+    "youngBrother": "伯爷爷C_145",
+    "elderSister": "姑奶奶C_143",
+    "youngSister": "姑奶奶C_143",
+    "son": "表伯C_147/表叔C_148",
+    "daughter": "表姑妈C_150"
+  },
+  {
+    "cwId": "144",
+    "cw": "姑爷爷",
+    "wife": "姑奶奶C_143",
+    "father": "太爷C_229",
+    "mother": "太婆C_233",
+    "elderBrother": "舅爷C_152",
+    "youngBrother": "舅爷C_152",
+    "elderSister": "舅奶奶C_153",
+    "youngSister": "舅奶奶C_153",
+    "son": "表伯C_147/表叔C_148",
+    "daughter": "表姑妈C_150"
+  },
+  {
+    "cwId": "145",
+    "cw": "伯爷爷",
+    "wife": "伯奶奶C_146",
+    "father": "太爷C_229",
+    "mother": "太奶C_232",
+    "elderBrother": "伯爷爷C_145",
+    "youngBrother": "伯爷爷C_145",
+    "elderSister": "姑奶奶C_143",
+    "youngSister": "姑奶奶C_143",
+    "son": "表伯C_147/表叔C_148",
+    "daughter": "表姑妈C_150"
+  },
+  {
+    "cwId": "146",
+    "cw": "伯奶奶",
+    "husband": "伯爷爷C_145",
+    "father": "太爷C_229",
+    "mother": "太婆C_233",
+    "elderBrother": "舅爷C_152",
+    "youngBrother": "舅爷C_152",
+    "elderSister": "舅奶奶C_153",
+    "youngSister": "舅奶奶C_153",
+    "son": "表伯C_147/表叔C_148",
+    "daughter": "表姑妈C_150"
+  },
+  {
+    "cwId": "147",
+    "cw": "表伯",
+    "wife": "表婶C_149",
+    "father": "伯爷爷C_145/姑爷爷C_144/N_祖父C_139/舅爷C_152/姨爷C_155",
+    "mother": "伯奶奶C_146/姑奶奶C_143/N_祖母C_140/舅奶奶C_153/姨奶奶C_154",
+    "elderBrother": "表伯C_147",
+    "youngBrother": "表伯C_147/表叔C_148",
+    "elderSister": "表姑妈C_150",
+    "youngSister": "表姑妈C_150",
+    "son": "表哥C_127/表弟C_129",
+    "daughter": "表姐C_128/表妹C_130"
+  },
+  {
+    "cwId": "148",
+    "cw": "表叔",
+    "wife": "表婶C_149",
+    "father": "伯爷爷C_145/姑爷爷C_144/N_祖父C_139/舅爷C_152/姨爷C_155",
+    "mother": "伯奶奶C_146/姑奶奶C_143/N_祖母C_140/舅奶奶C_153/姨奶奶C_154",
+    "elderBrother": "表伯C_147/表叔C_148",
+    "youngBrother": "表叔C_148",
+    "elderSister": "表姑妈C_150",
+    "youngSister": "表姑妈C_150",
+    "son": "表哥C_127/表弟C_129",
+    "daughter": "表姐C_128/表妹C_130"
+  },
+  {
+    "cwId": "149",
+    "cw": "表婶",
+    "husband": "表伯C_147/表叔C_148"
+  },
+  {
+    "cwId": "150",
+    "cw": "表姑妈",
+    "husband": "表姑父C_151",
+    "father": "伯爷爷C_145/姑爷爷C_144/N_祖父C_139/舅爷C_152/姨爷C_155",
+    "mother": "伯奶奶C_146/姑奶奶C_143/N_祖母C_140/舅奶奶C_153/姨奶奶C_154",
+    "elderBrother": "表伯C_147",
+    "youngBrother": "表伯C_147/表叔C_148",
+    "elderSister": "表姑妈C_150",
+    "youngSister": "表姑妈C_150",
+    "son": "表哥C_127/表弟C_129",
+    "daughter": "表姐C_128/表妹C_130"
+  },
+  {
+    "cwId": "151",
+    "cw": "表姑父",
+    "wife": "表姑妈C_150"
+  },
+  {
+    "cwId": "152",
+    "cw": "舅爷",
+    "wife": "舅奶奶C_153",
+    "father": "太爷C_229",
+    "mother": "太婆C_233",
+    "elderBrother": "舅爷C_152",
+    "youngBrother": "舅爷C_152",
+    "elderSister": "姨奶奶C_154",
+    "youngSister": "姨奶奶C_154",
+    "son": "表伯C_147/表叔C_148",
+    "daughter": "表姑妈C_150"
+  },
+  {
+    "cwId": "153",
+    "cw": "舅奶奶",
+    "husband": "舅爷C_152"
+  },
+  {
+    "cwId": "154",
+    "cw": "姨奶奶",
+    "husband": "姨爷C_155",
+    "father": "太爷C_229",
+    "mother": "太婆C_233",
+    "elderBrother": "舅爷C_152",
+    "youngBrother": "舅爷C_152",
+    "elderSister": "姨奶奶C_154",
+    "youngSister": "姨奶奶C_154",
+    "son": "表伯C_147/表叔C_148",
+    "daughter": "表姑妈C_150"
+  },
+  {
+    "cwId": "155",
+    "cw": "姨爷",
+    "wife": "姨奶奶C_154"
+  },
+  {
+    "cwId": "156",
+    "cw": "姥爷",
+    "wife": "姥姥C_157",
+    "father": "太姥爷C_230",
+    "mother": "太姥姥C_234",
+    "elderBrother": "姥爷C_156",
+    "youngBrother": "姥爷C_156",
+    "elderSister": "姑姥姥C_158",
+    "youngSister": "姑姥姥C_158",
+    "son": "表舅舅C_164",
+    "daughter": "表姨妈C_167"
+  },
+  {
+    "cwId": "157",
+    "cw": "姥姥",
+    "husband": "姥爷C_156"
+  },
+  {
+    "cwId": "158",
+    "cw": "姑姥姥",
+    "husband": "姑姥爷C_159",
+    "father": "太姥爷C_230",
+    "mother": "太姥姥C_234",
+    "elderBrother": "姥爷C_156",
+    "youngBrother": "姥爷C_156",
+    "elderSister": "姑姥姥C_158",
+    "youngSister": "姑姥姥C_158",
+    "son": "表舅舅C_164",
+    "daughter": "表姨妈C_167"
+  },
+  {
+    "cwId": "159",
+    "cw": "姑姥爷",
+    "wife": "姑姥姥C_158"
+  },
+  {
+    "cwId": "160",
+    "cw": "舅姥爷",
+    "wife": "舅姥姥C_161",
+    "father": "太姥爷C_230",
+    "mother": "太姥姥C_234",
+    "elderBrother": "舅姥爷C_160",
+    "youngBrother": "舅姥爷C_160",
+    "elderSister": "姨姥姥C_163",
+    "youngSister": "姨姥姥C_163",
+    "son": "表舅舅C_164",
+    "daughter": "表姨妈C_167"
+  },
+  {
+    "cwId": "161",
+    "cw": "舅姥姥",
+    "husband": "舅姥爷C_160"
+  },
+  {
+    "cwId": "162",
+    "cw": "姨姥爷",
+    "wife": "姨姥姥C_163"
+  },
+  {
+    "cwId": "163",
+    "cw": "姨姥姥",
+    "husband": "姨姥爷C_162",
+    "father": "太姥爷C_230",
+    "mother": "太姥姥C_234",
+    "elderBrother": "舅姥爷C_160",
+    "youngBrother": "舅姥爷C_160",
+    "elderSister": "姨姥姥C_163",
+    "youngSister": "姨姥姥C_163",
+    "son": "表舅舅C_164",
+    "daughter": "表姨妈C_167"
+  },
+  {
+    "cwId": "164",
+    "cw": "表舅舅",
+    "wife": "表舅妈C_165",
+    "father": "姑姥爷C_159/舅姥爷C_160/姨姥爷C_162",
+    "mother": "姑姥姥C_158/舅姥姥C_161/姨姥姥C_163",
+    "elderBrother": "表舅舅C_164",
+    "youngBrother": "表舅舅C_164",
+    "elderSister": "表姨妈C_167",
+    "youngSister": "表姨妈C_167",
+    "son": "表哥C_127/表弟C_129",
+    "daughter": "表姐C_128/表妹C_130"
+  },
+  {
+    "cwId": "165",
+    "cw": "表舅妈",
+    "husband": "表舅舅C_164"
+  },
+  {
+    "cwId": "166",
+    "cw": "表姨夫",
+    "wife": "表姨妈C_167"
+  },
+  {
+    "cwId": "167",
+    "cw": "表姨妈",
+    "husband": "表姨夫C_166",
+    "father": "姑姥爷C_159/舅姥爷C_160/姨姥爷C_162",
+    "mother": "姑姥姥C_158/舅姥姥C_161/姨姥姥C_163",
+    "elderBrother": "表舅舅C_164",
+    "youngBrother": "表舅舅C_164",
+    "elderSister": "表姨妈C_167",
+    "youngSister": "表姨妈C_167",
+    "son": "表哥C_127/表弟C_129",
+    "daughter": "表姐C_128/表妹C_130"
+  },
+  {
+    "cwId": "168",
+    "cw": "儿子",
+    "wife": "42",
+    "father": "自己/N_丈夫C_102",
+    "mother": "自己/N_妻子C_101",
+    "elderBrother": "儿子C_168",
+    "youngBrother": "儿子C_168",
+    "elderSister": "女儿C_170",
+    "youngSister": "女儿C_170",
+    "son": "孙子C_172",
+    "daughter": "孙女C_174"
+  },
+  {
+    "cwId": "169",
+    "cw": "儿媳",
+    "husband": "儿子C_168",
+    "father": "N_亲家公C_196",
+    "mother": "N_亲家母C_197",
+    "elderBrother": "侄子C_110",
+    "youngBrother": "侄子C_110",
+    "elderSister": "侄女C_109",
+    "youngSister": "侄女C_109",
+    "son": "孙子C_172",
+    "daughter": "孙女C_174"
+  },
+  {
+    "cwId": "170",
+    "cw": "女儿",
+    "husband": "女婿C_171",
+    "father": "自己/N_丈夫C_102",
+    "mother": "自己/N_妻子C_101",
+    "elderBrother": "儿子C_168",
+    "youngBrother": "儿子C_168",
+    "elderSister": "女儿C_170",
+    "youngSister": "女儿C_170",
+    "son": "外孙C_176",
+    "daughter": "外孙女C_178"
+  },
+  {
+    "cwId": "171",
+    "cw": "女婿",
+    "wife": "女儿C_170",
+    "father": "N_亲家公C_196",
+    "mother": "N_亲家母C_197",
+    "elderBrother": "侄子C_110",
+    "youngBrother": "侄子C_110",
+    "elderSister": "侄女C_109",
+    "youngSister": "侄女C_109",
+    "son": "外孙C_176",
+    "daughter": "外孙女C_178"
+  },
+  {
+    "cwId": "172",
+    "cw": "孙子",
+    "wife": "孙媳妇C_173",
+    "father": "儿子C_168",
+    "mother": "儿媳C_169",
+    "elderBrother": "孙子C_172",
+    "youngBrother": "孙子C_172",
+    "elderSister": "孙女C_174",
+    "youngSister": "孙女C_174",
+    "son": "曾孙C_180",
+    "daughter": "曾孙女C_182"
+  },
+  {
+    "cwId": "173",
+    "cw": "孙媳妇",
+    "husband": "孙子C_172"
+  },
+  {
+    "cwId": "174",
+    "cw": "孙女",
+    "husband": "孙女婿C_175",
+    "father": "儿子C_168",
+    "mother": "儿媳C_169",
+    "elderBrother": "孙子C_172",
+    "youngBrother": "孙子C_172",
+    "elderSister": "孙女C_174",
+    "youngSister": "孙女C_174",
+    "son": "曾孙C_180",
+    "daughter": "曾孙女C_182"
+  },
+  {
+    "cwId": "175",
+    "cw": "孙女婿",
+    "wife": "孙女C_174"
+  },
+  {
+    "cwId": "176",
+    "cw": "外孙",
+    "wife": "外孙媳C_177",
+    "father": "女儿C_170",
+    "mother": "女婿C_171",
+    "elderBrother": "外孙C_176",
+    "youngBrother": "外孙C_176",
+    "elderSister": "外孙女C_178",
+    "youngSister": "外孙女C_178",
+    "son": "曾外孙C_184",
+    "daughter": "曾外孙女C_186"
+  },
+  {
+    "cwId": "177",
+    "cw": "外孙媳",
+    "husband": "外孙C_176"
+  },
+  {
+    "cwId": "178",
+    "cw": "外孙女",
+    "husband": "外孙女婿C_179",
+    "father": "女儿C_170",
+    "mother": "女婿C_171",
+    "elderBrother": "外孙C_176",
+    "youngBrother": "外孙C_176",
+    "elderSister": "外孙女C_178",
+    "youngSister": "外孙女C_178",
+    "son": "曾外孙C_184",
+    "daughter": "曾外孙女C_186"
+  },
+  {
+    "cwId": "179",
+    "cw": "外孙女婿",
+    "wife": "外孙女C_178"
+  },
+  {
+    "cwId": "180",
+    "cw": "曾孙",
+    "wife": "曾孙媳妇C_181",
+    "father": "孙子C_172",
+    "mother": "孙媳妇C_173",
+    "elderBrother": "曾孙C_180",
+    "youngBrother": "曾孙C_180",
+    "elderSister": "曾孙女C_182",
+    "youngSister": "曾孙女C_182",
+    "son": "玄孙C_188",
+    "daughter": "玄孙女C_190"
+  },
+  {
+    "cwId": "181",
+    "cw": "曾孙媳妇",
+    "husband": "曾孙C_180"
+  },
+  {
+    "cwId": "182",
+    "cw": "曾孙女",
+    "husband": "曾孙女婿C_183",
+    "father": "孙子C_172",
+    "mother": "孙媳妇C_173",
+    "elderBrother": "曾孙C_180",
+    "youngBrother": "曾孙C_180",
+    "elderSister": "曾孙女C_182",
+    "youngSister": "曾孙女C_182",
+    "son": "玄孙C_188",
+    "daughter": "玄孙女C_190"
+  },
+  {
+    "cwId": "183",
+    "cw": "曾孙女婿",
+    "wife": "曾孙女C_182"
+  },
+  {
+    "cwId": "184",
+    "cw": "曾外孙",
+    "wife": "曾外孙媳C_185",
+    "father": "孙女C_174",
+    "mother": "孙女婿C_175",
+    "elderBrother": "曾孙C_180",
+    "youngBrother": "曾孙C_180",
+    "elderSister": "曾孙女C_182",
+    "youngSister": "曾孙女C_182",
+    "son": "玄孙C_188",
+    "daughter": "玄孙女C_190"
+  },
+  {
+    "cwId": "185",
+    "cw": "曾外孙媳",
+    "husband": "曾外孙C_184"
+  },
+  {
+    "cwId": "186",
+    "cw": "曾外孙女",
+    "husband": "曾外孙女婿C_187",
+    "father": "孙女C_174",
+    "mother": "孙女婿C_175",
+    "elderBrother": "曾孙C_180",
+    "youngBrother": "曾孙C_180",
+    "elderSister": "曾孙女C_182",
+    "youngSister": "曾孙女C_182",
+    "son": "玄孙C_188",
+    "daughter": "玄孙女C_190"
+  },
+  {
+    "cwId": "187",
+    "cw": "曾外孙女婿",
+    "wife": "曾外孙女C_186"
+  },
+  {
+    "cwId": "188",
+    "cw": "玄孙",
+    "wife": "玄孙媳妇C_189"
+  },
+  {
+    "cwId": "189",
+    "cw": "玄孙媳妇",
+    "husband": "玄孙C_188"
+  },
+  {
+    "cwId": "190",
+    "cw": "玄孙女",
+    "husband": "玄孙女婿C_191"
+  },
+  {
+    "cwId": "191",
+    "cw": "玄孙女婿",
+    "wife": "玄孙女C_190"
+  },
+  {
+    "cwId": "192",
+    "cw": "岳父",
+    "wife": "N_岳母C_193",
+    "father": "N_祖父C_139",
+    "mother": "N_祖母C_140",
+    "elderBrother": "伯父C_113",
+    "youngBrother": "叔叔C_115",
+    "elderSister": "姑妈C_240",
+    "youngSister": "姑妈C_240",
+    "son": "叔子C_236/N_丈夫C_102",
+    "daughter": "姑子C_239"
+  },
+  {
+    "cwId": "193",
+    "cw": "岳母",
+    "husband": "N_岳父C_192",
+    "father": "N_外祖父C_141",
+    "mother": "N_外祖母C_142",
+    "elderBrother": "舅舅C_119",
+    "youngBrother": "舅舅C_119",
+    "elderSister": "姨妈C_121",
+    "youngSister": "姨妈C_121",
+    "son": "叔子C_236/N_丈夫C_102",
+    "daughter": "姑子C_239"
+  },
+  {
+    "cwId": "194",
+    "cw": "公公",
+    "wife": "N_婆婆C_195",
+    "father": "N_祖父C_139",
+    "mother": "N_祖母C_140",
+    "elderBrother": "伯父C_113",
+    "youngBrother": "叔叔C_115",
+    "elderSister": "姑妈C_240",
+    "youngSister": "姑妈C_240",
+    "son": "叔子C_236/N_丈夫C_102",
+    "daughter": "姑子C_239"
+  },
+  {
+    "cwId": "195",
+    "cw": "婆婆",
+    "husband": "N_公公C_194",
+    "father": "N_外祖父C_141",
+    "mother": "N_外祖母C_142",
+    "elderBrother": "舅舅C_119",
+    "youngBrother": "舅舅C_119",
+    "elderSister": "姨妈C_121",
+    "youngSister": "姨妈C_121",
+    "son": "叔子C_236/N_丈夫C_102",
+    "daughter": "姑子C_239"
+  },
+  {
+    "cwId": "196",
+    "cw": "亲家公",
+    "wife": "N_亲家母197",
+    "father": "N_亲家翁C_198",
+    "mother": "N_亲家婆C_199",
+    "elderBrother": "N_姻兄C_200",
+    "youngBrother": "N_姻弟C_201",
+    "elderSister": "N_姻姐C_202",
+    "youngSister": "N_姻妹C_203",
+    "son": "侄子C_110/女婿C_171",
+    "daughter": "侄女C_109/儿媳C_169"
+  },
+  {
+    "cwId": "197",
+    "cw": "亲家母",
+    "husband": "N_亲家公C_196",
+    "father": "N_亲家翁C_198",
+    "mother": "N_亲家婆C_199",
+    "elderBrother": "N_姻兄C_200",
+    "youngBrother": "N_姻弟C_201",
+    "elderSister": "N_姻姐C_202",
+    "youngSister": "N_姻妹C_203",
+    "son": "侄子C_110/女婿C_171",
+    "daughter": "侄女C_109/儿媳C_169"
+  },
+  {
+    "cwId": "198",
+    "cw": "亲家翁"
+  },
+  {
+    "cwId": "199",
+    "cw": "亲家婆"
+  },
+  {
+    "cwId": "200",
+    "cw": "姻兄"
+  },
+  {
+    "cwId": "201",
+    "cw": "姻弟"
+  },
+  {
+    "cwId": "202",
+    "cw": "姻姐"
+  },
+  {
+    "cwId": "203",
+    "cw": "姻妹"
+  },
+  {
+    "cwId": "204",
+    "cw": "姐夫"
+  },
+  {
+    "cwId": "205",
+    "cw": "妹夫"
+  },
+  {
+    "cwId": "206",
+    "cw": "嫂子"
+  },
+  {
+    "cwId": "207",
+    "cw": "弟媳"
+  },
+  {
+    "cwId": "208",
+    "cw": "侄女婿"
+  },
+  {
+    "cwId": "209",
+    "cw": "侄媳妇"
+  },
+  {
+    "cwId": "210",
+    "cw": "外甥女婿"
+  },
+  {
+    "cwId": "211",
+    "cw": "外甥媳妇"
+  },
+  {
+    "cwId": "212",
+    "cw": "堂姐夫"
+  },
+  {
+    "cwId": "213",
+    "cw": "堂妹夫"
+  },
+  {
+    "cwId": "214",
+    "cw": "表姐夫"
+  },
+  {
+    "cwId": "215",
+    "cw": "表妹夫"
+  },
+  {
+    "cwId": "216",
+    "cw": "堂外甥婿"
+  },
+  {
+    "cwId": "217",
+    "cw": "堂侄女婿"
+  },
+  {
+    "cwId": "218",
+    "cw": "表外甥婿"
+  },
+  {
+    "cwId": "219",
+    "cw": "表侄女婿"
+  },
+  {
+    "cwId": "220",
+    "cw": "堂嫂"
+  },
+  {
+    "cwId": "221",
+    "cw": "堂弟媳"
+  },
+  {
+    "cwId": "222",
+    "cw": "表嫂"
+  },
+  {
+    "cwId": "223",
+    "cw": "表弟媳"
+  },
+  {
+    "cwId": "224",
+    "cw": "堂外甥媳"
+  },
+  {
+    "cwId": "225",
+    "cw": "堂侄媳妇"
+  },
+  {
+    "cwId": "226",
+    "cw": "表外甥媳"
+  },
+  {
+    "cwId": "227",
+    "cw": "表侄媳妇"
+  },
+  {
+    "cwId": "228",
+    "cw": "伯祖父"
+  },
+  {
+    "cwId": "229",
+    "cw": "太爷"
+  },
+  {
+    "cwId": "230",
+    "cw": "太姥爷"
+  },
+  {
+    "cwId": "231",
+    "cw": "伯祖母"
+  },
+  {
+    "cwId": "232",
+    "cw": "太奶"
+  },
+  {
+    "cwId": "233",
+    "cw": "太婆"
+  },
+  {
+    "cwId": "234",
+    "cw": "太姥姥"
+  },
+  {
+    "cwId": "235",
+    "cw": "舅子"
+  },
+  {
+    "cwId": "236",
+    "cw": "叔子"
+  },
+  {
+    "cwId": "237",
+    "cw": "伯伯"
+  },
+  {
+    "cwId": "238",
+    "cw": "姨子"
+  },
+  {
+    "cwId": "239",
+    "cw": "姑子"
+  },
+  {
+    "cwId": "240",
+    "cw": "姑妈"
+  },
+  {
+    "cwId": "241",
+    "cw": "堂外甥孙"
+  },
+  {
+    "cwId": "242",
+    "cw": "堂侄孙儿"
+  },
+  {
+    "cwId": "243",
+    "cw": "表外甥孙"
+  },
+  {
+    "cwId": "244",
+    "cw": "堂外甥孙"
+  },
+  {
+    "cwId": "245",
+    "cw": "侄孙儿"
+  },
+  {
+    "cwId": "246",
+    "cw": "外甥孙儿"
+  },
+  {
+    "cwId": "247",
+    "cw": "侄孙女"
+  },
+  {
+    "cwId": "248",
+    "cw": "外甥孙女"
+  },
+  {
+    "cwId": "249",
+    "cw": "堂外甥孙女"
+  },
+  {
+    "cwId": "250",
+    "cw": "堂侄孙女"
+  },
+  {
+    "cwId": "251",
+    "cw": "表外甥孙女"
+  }
+]

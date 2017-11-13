@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        layout="@layout/common_title"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scroll_view">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:divider="@drawable/common_divider"
+                android:showDividers="middle"
+                android:id="@+id/content">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_ListItem"
+                        android:id="@+id/name_view">
+
+                        <TextView
+                            style="@style/Font_Normal_Black"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/text_name"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="收货人"
+                            />
+
+                        <EditText
+                            style="@style/Font_Normal_Edit"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/edit_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/text_name"
+                            android:background="@null"
+                            android:hint="名字"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_ListItem"
+
+                        android:id="@+id/mobile_view">
+
+                        <TextView
+                            style="@style/Font_Normal_Black"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/text_mobile"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="手机号码"
+                            />
+
+                        <EditText
+                            style="@style/Font_Normal_Edit"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/edit_mobile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/text_mobile"
+                            android:background="@null"
+                            android:inputType="number"
+                            android:hint="11位手机号"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_ListItem"
+                        android:id="@+id/zone_view">
+
+                        <TextView
+                            style="@style/Font_Normal_Black"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/text_zone"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="选择地区"
+                            />
+
+                        <EditText
+                            style="@style/Font_Normal_Edit"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/edit_zone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/text_zone"
+                            android:background="@null"
+                            android:hint="地区信息"
+                            android:inputType="none"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_ListItem"
+                        android:id="@+id/address_view">
+
+                        <TextView
+                            style="@style/Font_Normal_Black"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/text_address"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="详细地址"
+                            />
+
+                        <EditText
+                            style="@style/Font_Normal_Edit"
+                            android:id="@+id/edit_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/text_address"
+                            android:background="@null"
+                            android:hint="街道门牌信息"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_ListItem"
+
+                        android:id="@+id/addresscode_view">
+
+                        <TextView
+                            style="@style/Font_Normal_Black"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/text_addresscode"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="邮政编码"
+                            />
+
+                        <EditText
+                            style="@style/Font_Normal_Edit"
+                            android:layout_centerVertical="true"
+                            android:id="@+id/edit_addresscode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/text_addresscode"
+                            android:background="@null"
+                            android:hint="邮政编码"/>
+                        <ImageView
+                            android:id="@+id/line_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/text_addresscode"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/common_divider"
+                            />
+                    </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>

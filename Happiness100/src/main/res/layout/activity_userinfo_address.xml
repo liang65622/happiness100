@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include
+        layout="@layout/common_title"></include>
+
+    <com.happiness100.app.ui.widget.swipemenulistview.SwipeMenuListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/address_list">
+    </com.happiness100.app.ui.widget.swipemenulistview.SwipeMenuListView>
+
+</LinearLayout>

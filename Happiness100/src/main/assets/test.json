@@ -1,0 +1,357 @@
+{
+  "code": 0,
+  "msg": "",
+  "data": {
+    "familyIdIndex": 10,
+    "uIndex": 24,
+    "familyUnitMap": {
+      "1": {
+        "father": 2,
+        "mother": 3,
+        "children": [
+          1
+        ]
+      },
+      "2": {
+        "father": 1,
+        "mother": 5,
+        "children": [
+          4,
+          14
+        ]
+      },
+      "3": {
+        "father": 7,
+        "mother": 8,
+        "children": [
+          2,
+          6,
+          9,
+          10,
+          11
+        ]
+      },
+      "4": {
+        "father": 6,
+        "mother": 13,
+        "children": [
+          12
+        ]
+      },
+      "5": {
+        "father": 12,
+        "mother": 0,
+        "children": [
+          15
+        ]
+      },
+      "6": {
+        "father": 14,
+        "mother": 0,
+        "children": [
+          16
+        ]
+      },
+      "7": {
+        "father": 15,
+        "mother": 18,
+        "children": [
+          17,
+          19
+        ]
+      },
+      "8": {
+        "father": 20,
+        "mother": 23,
+        "children": [
+          13
+        ]
+      },
+      "9": {
+        "father": 11,
+        "mother": 21,
+        "children": [
+          24
+        ]
+      },
+      "10": {
+        "father": 22,
+        "mother": 0,
+        "children": [
+          21
+        ]
+      }
+    },
+    "pUserId2IndexMap": {
+      "1": 1
+    },
+    "uIndex2Punit": {
+      "1": {
+        "unitId": 1,
+        "userId": 1,
+        "uFaId": 1,
+        "dFaId": 2,
+        "rank": 1,
+        "cw": "自己",
+        "nameNote": "justin",
+        "bfIndex": 0,
+        "cwId": 100
+      },
+      "2": {
+        "unitId": 2,
+        "userId": 5,
+        "uFaId": 3,
+        "dFaId": 1,
+        "rank": 1,
+        "cw": "父亲",
+        "nameNote": "muqiang",
+        "bfIndex": 1,
+        "cwId": 103
+      },
+      "3": {
+        "unitId": 3,
+        "userId": 0,
+        "uFaId": 0,
+        "dFaId": 1,
+        "rank": 101,
+        "cw": "母亲",
+        "nameNote": "YUELAN",
+        "bfIndex": 1,
+        "cwId": 104
+      },
+      "4": {
+        "unitId": 4,
+        "userId": 0,
+        "uFaId": 2,
+        "dFaId": 0,
+        "rank": 101,
+        "cw": "大女儿",
+        "nameNote": "yiling",
+        "bfIndex": -1,
+        "cwId": 170
+      },
+      "5": {
+        "unitId": 5,
+        "userId": 0,
+        "uFaId": 0,
+        "dFaId": 2,
+        "rank": 101,
+        "cw": "妻子",
+        "nameNote": "huanzi",
+        "bfIndex": 0,
+        "cwId": 101
+      },
+      "6": {
+        "unitId": 6,
+        "userId": 0,
+        "uFaId": 3,
+        "dFaId": 4,
+        "rank": 1,
+        "cw": "大叔叔",
+        "nameNote": "dashu",
+        "bfIndex": 1,
+        "cwId": 115
+      },
+      "7": {
+        "unitId": 7,
+        "userId": 0,
+        "uFaId": 0,
+        "dFaId": 3,
+        "rank": 1,
+        "cw": "祖父",
+        "nameNote": "sdfsdf",
+        "bfIndex": 2,
+        "cwId": 139
+      },
+      "8": {
+        "unitId": 8,
+        "userId": 0,
+        "uFaId": 0,
+        "dFaId": 3,
+        "rank": 101,
+        "cw": null,
+        "nameNote": null,
+        "bfIndex": 2,
+        "cwId": 140
+      },
+      "9": {
+        "unitId": 9,
+        "userId": 0,
+        "uFaId": 3,
+        "dFaId": 0,
+        "rank": 101,
+        "cw": "大姑妈",
+        "nameNote": "dagu",
+        "bfIndex": 1,
+        "cwId": 240
+      },
+      "10": {
+        "unitId": 10,
+        "userId": 0,
+        "uFaId": 3,
+        "dFaId": 0,
+        "rank": 102,
+        "cw": "二姑妈",
+        "nameNote": "ergu",
+        "bfIndex": 1,
+        "cwId": 240
+      },
+      "11": {
+        "unitId": 11,
+        "userId": 0,
+        "uFaId": 3,
+        "dFaId": 9,
+        "rank": 2,
+        "cw": "二叔叔",
+        "nameNote": "ershu",
+        "bfIndex": 1,
+        "cwId": 115
+      },
+      "12": {
+        "unitId": 12,
+        "userId": 0,
+        "uFaId": 4,
+        "dFaId": 5,
+        "rank": 1,
+        "cw": "大堂哥",
+        "nameNote": "tianyun",
+        "bfIndex": 0,
+        "cwId": 123
+      },
+      "13": {
+        "unitId": 13,
+        "userId": 0,
+        "uFaId": 8,
+        "dFaId": 4,
+        "rank": 101,
+        "cw": "大婶婶",
+        "nameNote": "shenshen",
+        "bfIndex": 1,
+        "cwId": 116
+      },
+      "14": {
+        "unitId": 14,
+        "userId": 0,
+        "uFaId": 2,
+        "dFaId": 6,
+        "rank": 2,
+        "cw": "二儿子",
+        "nameNote": "erz",
+        "bfIndex": -1,
+        "cwId": 168
+      },
+      "15": {
+        "unitId": 15,
+        "userId": 0,
+        "uFaId": 5,
+        "dFaId": 7,
+        "rank": 1,
+        "cw": "大堂侄子",
+        "nameNote": "dfsdf",
+        "bfIndex": -1,
+        "cwId": 133
+      },
+      "16": {
+        "unitId": 16,
+        "userId": 0,
+        "uFaId": 6,
+        "dFaId": 0,
+        "rank": 101,
+        "cw": "大孙女",
+        "nameNote": "sdfsdf",
+        "bfIndex": -2,
+        "cwId": 174
+      },
+      "17": {
+        "unitId": 17,
+        "userId": 0,
+        "uFaId": 7,
+        "dFaId": 0,
+        "rank": 1,
+        "cw": "大堂侄孙儿",
+        "nameNote": "sdfsd",
+        "bfIndex": -2,
+        "cwId": 242
+      },
+      "18": {
+        "unitId": 18,
+        "userId": 0,
+        "uFaId": 0,
+        "dFaId": 7,
+        "rank": 101,
+        "cw": "大堂侄媳妇",
+        "nameNote": "sdfsdf",
+        "bfIndex": -1,
+        "cwId": 225
+      },
+      "19": {
+        "unitId": 19,
+        "userId": 0,
+        "uFaId": 7,
+        "dFaId": 0,
+        "rank": 101,
+        "cw": "大堂侄孙女",
+        "nameNote": "ggg",
+        "bfIndex": -2,
+        "cwId": 250
+      },
+      "20": {
+        "unitId": 20,
+        "userId": 0,
+        "uFaId": 0,
+        "dFaId": 8,
+        "rank": 1,
+        "cw": "大姥爷",
+        "nameNote": "wrwer",
+        "bfIndex": 2,
+        "cwId": 156
+      },
+      "21": {
+        "unitId": 21,
+        "userId": 0,
+        "uFaId": 10,
+        "dFaId": 9,
+        "rank": 101,
+        "cw": "大婶婶",
+        "nameNote": "sdfsd",
+        "bfIndex": 1,
+        "cwId": 116
+      },
+      "22": {
+        "unitId": 22,
+        "userId": 0,
+        "uFaId": 0,
+        "dFaId": 10,
+        "rank": 3,
+        "cw": "三姥爷",
+        "nameNote": "sdfsdf",
+        "bfIndex": 2,
+        "cwId": 156
+      },
+      "23": {
+        "unitId": 23,
+        "userId": 0,
+        "uFaId": 0,
+        "dFaId": 8,
+        "rank": 102,
+        "cw": "二姥姥",
+        "nameNote": "SDFSDF",
+        "bfIndex": 2,
+        "cwId": 157
+      },
+      "24": {
+        "unitId": 24,
+        "userId": 0,
+        "uFaId": 9,
+        "dFaId": 0,
+        "rank": 5,
+        "cw": "五堂哥",
+        "nameNote": "dsfsdf",
+        "bfIndex": 0,
+        "cwId": 123
+      }
+    },
+    "blankPUnitCount": 23,
+    "creater": 1
+  }
+}

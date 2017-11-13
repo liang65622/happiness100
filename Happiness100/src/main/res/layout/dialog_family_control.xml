@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/dialog_root"
+                android:layout_width="260dp"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+    <View
+        android:id="@+id/view_mid_line"
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/view_add_father"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/view_mid_line"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/btn_zp_unit_add"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(父亲)"
+            android:textSize="10sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_add_wife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_add_father"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:layout_toLeftOf="@+id/view_mid_line"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/btn_zp_unit_add"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(妻子)"
+            android:textSize="10sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/view_add_mother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/view_mid_line"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/btn_zp_unit_add"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(母亲)"
+            android:textSize="10sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/view_add_brother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_add_mother"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/view_mid_line"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/btn_zp_unit_add"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(兄弟姐妹)"
+            android:textSize="10sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_add_dorther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/view_add_mother"
+        android:layout_below="@+id/view_add_brother"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/btn_zp_unit_add"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(女儿)"
+            android:textSize="10sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_add_sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view_add_father"
+        android:layout_alignTop="@+id/view_add_dorther"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/btn_zp_unit_add"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(儿子)"
+            android:textSize="10sp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

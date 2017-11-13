@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Happiness100/Happiness100.iml" filepath="$PROJECT_DIR$/Happiness100/Happiness100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPChartLib/MPChartLib.iml" filepath="$PROJECT_DIR$/MPChartLib/MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable/Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable.iml" filepath="$PROJECT_DIR$/Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable/Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/countryselector/countryselector.iml" filepath="$PROJECT_DIR$/countryselector/countryselector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/happiness100_after_0926.iml" filepath="$PROJECT_DIR$/happiness100_after_0926.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-bither-compress/lib-bither-compress.iml" filepath="$PROJECT_DIR$/lib-bither-compress/lib-bither-compress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_fast/lib_fast.iml" filepath="$PROJECT_DIR$/lib_fast/lib_fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scalemodule/scalemodule.iml" filepath="$PROJECT_DIR$/scalemodule/scalemodule.iml" />
+    </modules>
+  </component>
+</project>

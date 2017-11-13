@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/discover_gray"
+              android:orientation="vertical">
+
+    <include
+        layout="@layout/common_title">
+    </include>
+
+    <RelativeLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <com.happiness100.app.ui.widget.ClearWriteEditText
+            style="@style/Font_Normal_Edit"
+            android:layout_centerInParent="true"
+            android:id="@+id/filter_edit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_ListItem"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_common_white_normal"
+            android:drawableLeft="@drawable/icon_ss"
+            android:hint="请输入关键字"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:singleLine="true"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ListView
+            android:id="@+id/friendlistview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:divider="@null">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/rc_bg_toast"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="30.0dip"
+            android:visibility="invisible"/>
+
+
+        <com.happiness100.app.ui.widget.pinyin.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="30.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>

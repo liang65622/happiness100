@@ -1,0 +1,4637 @@
+[
+    {
+        "outputFile": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 131,
+                    "endColumn": 24,
+                    "endOffset": 4322
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 131,
+                        "endColumn": 24,
+                        "endOffset": 4322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 4327,
+                    "endLine": 261,
+                    "endColumn": 12,
+                    "endOffset": 9213
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 4327,
+                        "endLine": 261,
+                        "endColumn": 12,
+                        "endOffset": 9213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 9218,
+                    "endColumn": 66,
+                    "endOffset": 9280
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 262,
+                        "startColumn": 4,
+                        "startOffset": 9218,
+                        "endColumn": 66,
+                        "endOffset": 9280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 9285,
+                    "endColumn": 60,
+                    "endOffset": 9341
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 263,
+                        "startColumn": 4,
+                        "startOffset": 9285,
+                        "endColumn": 60,
+                        "endOffset": 9341
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 9346,
+                    "endColumn": 53,
+                    "endOffset": 9395
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 264,
+                        "startColumn": 4,
+                        "startOffset": 9346,
+                        "endColumn": 53,
+                        "endOffset": 9395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 9400,
+                    "endColumn": 44,
+                    "endOffset": 9440
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 9400,
+                        "endColumn": 44,
+                        "endOffset": 9440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 266,
+                    "startColumn": 4,
+                    "startOffset": 9445,
+                    "endColumn": 61,
+                    "endOffset": 9502
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 266,
+                        "startColumn": 4,
+                        "startOffset": 9445,
+                        "endColumn": 61,
+                        "endOffset": 9502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 267,
+                    "startColumn": 4,
+                    "startOffset": 9507,
+                    "endColumn": 45,
+                    "endOffset": 9548
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 267,
+                        "startColumn": 4,
+                        "startOffset": 9507,
+                        "endColumn": 45,
+                        "endOffset": 9548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 9553,
+                    "endColumn": 56,
+                    "endOffset": 9605
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 268,
+                        "startColumn": 4,
+                        "startOffset": 9553,
+                        "endColumn": 56,
+                        "endOffset": 9605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 9610,
+                    "endColumn": 48,
+                    "endOffset": 9654
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 4,
+                        "startOffset": 9610,
+                        "endColumn": 48,
+                        "endOffset": 9654
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 270,
+                    "startColumn": 4,
+                    "startOffset": 9659,
+                    "endColumn": 45,
+                    "endOffset": 9700
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 270,
+                        "startColumn": 4,
+                        "startOffset": 9659,
+                        "endColumn": 45,
+                        "endOffset": 9700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 9705,
+                    "endColumn": 52,
+                    "endOffset": 9753
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 271,
+                        "startColumn": 4,
+                        "startOffset": 9705,
+                        "endColumn": 52,
+                        "endOffset": 9753
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 9758,
+                    "endColumn": 54,
+                    "endOffset": 9808
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 272,
+                        "startColumn": 4,
+                        "startOffset": 9758,
+                        "endColumn": 54,
+                        "endOffset": 9808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 9813,
+                    "endColumn": 46,
+                    "endOffset": 9855
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 273,
+                        "startColumn": 4,
+                        "startOffset": 9813,
+                        "endColumn": 46,
+                        "endOffset": 9855
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 9860,
+                    "endColumn": 52,
+                    "endOffset": 9908
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 274,
+                        "startColumn": 4,
+                        "startOffset": 9860,
+                        "endColumn": 52,
+                        "endOffset": 9908
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 9913,
+                    "endColumn": 48,
+                    "endOffset": 9957
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 275,
+                        "startColumn": 4,
+                        "startOffset": 9913,
+                        "endColumn": 48,
+                        "endOffset": 9957
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 9962,
+                    "endColumn": 53,
+                    "endOffset": 10011
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 4,
+                        "startOffset": 9962,
+                        "endColumn": 53,
+                        "endOffset": 10011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 10016,
+                    "endColumn": 52,
+                    "endOffset": 10064
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 4,
+                        "startOffset": 10016,
+                        "endColumn": 52,
+                        "endOffset": 10064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 10069,
+                    "endColumn": 93,
+                    "endOffset": 10158
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 278,
+                        "startColumn": 4,
+                        "startOffset": 10069,
+                        "endColumn": 93,
+                        "endOffset": 10158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 10163,
+                    "endColumn": 60,
+                    "endOffset": 10219
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 4,
+                        "startOffset": 10163,
+                        "endColumn": 60,
+                        "endOffset": 10219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 10224,
+                    "endColumn": 55,
+                    "endOffset": 10275
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 280,
+                        "startColumn": 4,
+                        "startOffset": 10224,
+                        "endColumn": 55,
+                        "endOffset": 10275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 10280,
+                    "endColumn": 63,
+                    "endOffset": 10339
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 281,
+                        "startColumn": 4,
+                        "startOffset": 10280,
+                        "endColumn": 63,
+                        "endOffset": 10339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 10344,
+                    "endColumn": 51,
+                    "endOffset": 10391
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 282,
+                        "startColumn": 4,
+                        "startOffset": 10344,
+                        "endColumn": 51,
+                        "endOffset": 10391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 283,
+                    "startColumn": 4,
+                    "startOffset": 10396,
+                    "endColumn": 64,
+                    "endOffset": 10456
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 283,
+                        "startColumn": 4,
+                        "startOffset": 10396,
+                        "endColumn": 64,
+                        "endOffset": 10456
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 10461,
+                    "endColumn": 63,
+                    "endOffset": 10520
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 284,
+                        "startColumn": 4,
+                        "startOffset": 10461,
+                        "endColumn": 63,
+                        "endOffset": 10520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 10525,
+                    "endColumn": 64,
+                    "endOffset": 10585
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 285,
+                        "startColumn": 4,
+                        "startOffset": 10525,
+                        "endColumn": 64,
+                        "endOffset": 10585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 10590,
+                    "endColumn": 69,
+                    "endOffset": 10655
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 286,
+                        "startColumn": 4,
+                        "startOffset": 10590,
+                        "endColumn": 69,
+                        "endOffset": 10655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 10660,
+                    "endColumn": 68,
+                    "endOffset": 10724
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 4,
+                        "startOffset": 10660,
+                        "endColumn": 68,
+                        "endOffset": 10724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 10729,
+                    "endColumn": 65,
+                    "endOffset": 10790
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 4,
+                        "startOffset": 10729,
+                        "endColumn": 65,
+                        "endOffset": 10790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 10795,
+                    "endColumn": 47,
+                    "endOffset": 10838
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 4,
+                        "startOffset": 10795,
+                        "endColumn": 47,
+                        "endOffset": 10838
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 290,
+                    "startColumn": 4,
+                    "startOffset": 10843,
+                    "endColumn": 55,
+                    "endOffset": 10894
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 290,
+                        "startColumn": 4,
+                        "startOffset": 10843,
+                        "endColumn": 55,
+                        "endOffset": 10894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 10899,
+                    "endColumn": 76,
+                    "endOffset": 10971
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 4,
+                        "startOffset": 10899,
+                        "endColumn": 76,
+                        "endOffset": 10971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 10976,
+                    "endColumn": 57,
+                    "endOffset": 11029
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 292,
+                        "startColumn": 4,
+                        "startOffset": 10976,
+                        "endColumn": 57,
+                        "endOffset": 11029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 11034,
+                    "endColumn": 56,
+                    "endOffset": 11086
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 293,
+                        "startColumn": 4,
+                        "startOffset": 11034,
+                        "endColumn": 56,
+                        "endOffset": 11086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 294,
+                    "startColumn": 4,
+                    "startOffset": 11091,
+                    "endColumn": 47,
+                    "endOffset": 11134
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 294,
+                        "startColumn": 4,
+                        "startOffset": 11091,
+                        "endColumn": 47,
+                        "endOffset": 11134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 11139,
+                    "endColumn": 52,
+                    "endOffset": 11187
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 295,
+                        "startColumn": 4,
+                        "startOffset": 11139,
+                        "endColumn": 52,
+                        "endOffset": 11187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 11192,
+                    "endColumn": 48,
+                    "endOffset": 11236
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 296,
+                        "startColumn": 4,
+                        "startOffset": 11192,
+                        "endColumn": 48,
+                        "endOffset": 11236
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 11241,
+                    "endColumn": 53,
+                    "endOffset": 11290
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 297,
+                        "startColumn": 4,
+                        "startOffset": 11241,
+                        "endColumn": 53,
+                        "endOffset": 11290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 11295,
+                    "endColumn": 54,
+                    "endOffset": 11345
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 298,
+                        "startColumn": 4,
+                        "startOffset": 11295,
+                        "endColumn": 54,
+                        "endOffset": 11345
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 12222,
+                    "endColumn": 61,
+                    "endOffset": 12279
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 314,
+                        "startColumn": 4,
+                        "startOffset": 12222,
+                        "endColumn": 61,
+                        "endOffset": 12279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 12284,
+                    "endColumn": 61,
+                    "endOffset": 12341
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 315,
+                        "startColumn": 4,
+                        "startOffset": 12284,
+                        "endColumn": 61,
+                        "endOffset": 12341
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 12346,
+                    "endColumn": 41,
+                    "endOffset": 12383
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 316,
+                        "startColumn": 4,
+                        "startOffset": 12346,
+                        "endColumn": 41,
+                        "endOffset": 12383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 12388,
+                    "endColumn": 36,
+                    "endOffset": 12420
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 317,
+                        "startColumn": 4,
+                        "startOffset": 12388,
+                        "endColumn": 36,
+                        "endOffset": 12420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 318,
+                    "startColumn": 4,
+                    "startOffset": 12425,
+                    "endColumn": 42,
+                    "endOffset": 12463
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 318,
+                        "startColumn": 4,
+                        "startOffset": 12425,
+                        "endColumn": 42,
+                        "endOffset": 12463
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 319,
+                    "startColumn": 4,
+                    "startOffset": 12468,
+                    "endColumn": 38,
+                    "endOffset": 12502
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 319,
+                        "startColumn": 4,
+                        "startOffset": 12468,
+                        "endColumn": 38,
+                        "endOffset": 12502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 12507,
+                    "endColumn": 40,
+                    "endOffset": 12543
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 320,
+                        "startColumn": 4,
+                        "startOffset": 12507,
+                        "endColumn": 40,
+                        "endOffset": 12543
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 12548,
+                    "endColumn": 39,
+                    "endOffset": 12583
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 321,
+                        "startColumn": 4,
+                        "startOffset": 12548,
+                        "endColumn": 39,
+                        "endOffset": 12583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 322,
+                    "startColumn": 4,
+                    "startOffset": 12588,
+                    "endColumn": 52,
+                    "endOffset": 12636
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 322,
+                        "startColumn": 4,
+                        "startOffset": 12588,
+                        "endColumn": 52,
+                        "endOffset": 12636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 12641,
+                    "endColumn": 54,
+                    "endOffset": 12691
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 323,
+                        "startColumn": 4,
+                        "startOffset": 12641,
+                        "endColumn": 54,
+                        "endOffset": 12691
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 12696,
+                    "endColumn": 51,
+                    "endOffset": 12743
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 324,
+                        "startColumn": 4,
+                        "startOffset": 12696,
+                        "endColumn": 51,
+                        "endOffset": 12743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 12748,
+                    "endColumn": 49,
+                    "endOffset": 12793
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 325,
+                        "startColumn": 4,
+                        "startOffset": 12748,
+                        "endColumn": 49,
+                        "endOffset": 12793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 12798,
+                    "endColumn": 50,
+                    "endOffset": 12844
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 326,
+                        "startColumn": 4,
+                        "startOffset": 12798,
+                        "endColumn": 50,
+                        "endOffset": 12844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 12849,
+                    "endColumn": 40,
+                    "endOffset": 12885
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 327,
+                        "startColumn": 4,
+                        "startOffset": 12849,
+                        "endColumn": 40,
+                        "endOffset": 12885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 12890,
+                    "endColumn": 37,
+                    "endOffset": 12923
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 328,
+                        "startColumn": 4,
+                        "startOffset": 12890,
+                        "endColumn": 37,
+                        "endOffset": 12923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 12928,
+                    "endColumn": 36,
+                    "endOffset": 12960
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 329,
+                        "startColumn": 4,
+                        "startOffset": 12928,
+                        "endColumn": 36,
+                        "endOffset": 12960
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 12965,
+                    "endColumn": 35,
+                    "endOffset": 12996
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 330,
+                        "startColumn": 4,
+                        "startOffset": 12965,
+                        "endColumn": 35,
+                        "endOffset": 12996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 13001,
+                    "endColumn": 47,
+                    "endOffset": 13044
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 331,
+                        "startColumn": 4,
+                        "startOffset": 13001,
+                        "endColumn": 47,
+                        "endOffset": 13044
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 13049,
+                    "endColumn": 42,
+                    "endOffset": 13087
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 332,
+                        "startColumn": 4,
+                        "startOffset": 13049,
+                        "endColumn": 42,
+                        "endOffset": 13087
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 333,
+                    "startColumn": 4,
+                    "startOffset": 13092,
+                    "endColumn": 44,
+                    "endOffset": 13132
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 333,
+                        "startColumn": 4,
+                        "startOffset": 13092,
+                        "endColumn": 44,
+                        "endOffset": 13132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 334,
+                    "startColumn": 4,
+                    "startOffset": 13137,
+                    "endColumn": 37,
+                    "endOffset": 13170
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 334,
+                        "startColumn": 4,
+                        "startOffset": 13137,
+                        "endColumn": 37,
+                        "endOffset": 13170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 335,
+                    "startColumn": 4,
+                    "startOffset": 13175,
+                    "endColumn": 37,
+                    "endOffset": 13208
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 335,
+                        "startColumn": 4,
+                        "startOffset": 13175,
+                        "endColumn": 37,
+                        "endOffset": 13208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 336,
+                    "startColumn": 4,
+                    "startOffset": 13213,
+                    "endColumn": 37,
+                    "endOffset": 13246
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 336,
+                        "startColumn": 4,
+                        "startOffset": 13213,
+                        "endColumn": 37,
+                        "endOffset": 13246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 337,
+                    "startColumn": 4,
+                    "startOffset": 13251,
+                    "endColumn": 37,
+                    "endOffset": 13284
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 337,
+                        "startColumn": 4,
+                        "startOffset": 13251,
+                        "endColumn": 37,
+                        "endOffset": 13284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 13289,
+                    "endColumn": 37,
+                    "endOffset": 13322
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 338,
+                        "startColumn": 4,
+                        "startOffset": 13289,
+                        "endColumn": 37,
+                        "endOffset": 13322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 13327,
+                    "endColumn": 37,
+                    "endOffset": 13360
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 339,
+                        "startColumn": 4,
+                        "startOffset": 13327,
+                        "endColumn": 37,
+                        "endOffset": 13360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 13365,
+                    "endColumn": 37,
+                    "endOffset": 13398
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 340,
+                        "startColumn": 4,
+                        "startOffset": 13365,
+                        "endColumn": 37,
+                        "endOffset": 13398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 13403,
+                    "endColumn": 37,
+                    "endOffset": 13436
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 341,
+                        "startColumn": 4,
+                        "startOffset": 13403,
+                        "endColumn": 37,
+                        "endOffset": 13436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 13441,
+                    "endColumn": 37,
+                    "endOffset": 13474
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 342,
+                        "startColumn": 4,
+                        "startOffset": 13441,
+                        "endColumn": 37,
+                        "endOffset": 13474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 13479,
+                    "endColumn": 37,
+                    "endOffset": 13512
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 343,
+                        "startColumn": 4,
+                        "startOffset": 13479,
+                        "endColumn": 37,
+                        "endOffset": 13512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 13517,
+                    "endColumn": 49,
+                    "endOffset": 13562
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 344,
+                        "startColumn": 4,
+                        "startOffset": 13517,
+                        "endColumn": 49,
+                        "endOffset": 13562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 345,
+                    "startColumn": 4,
+                    "startOffset": 13567,
+                    "endColumn": 38,
+                    "endOffset": 13601
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 345,
+                        "startColumn": 4,
+                        "startOffset": 13567,
+                        "endColumn": 38,
+                        "endOffset": 13601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 346,
+                    "startColumn": 4,
+                    "startOffset": 13606,
+                    "endColumn": 36,
+                    "endOffset": 13638
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 346,
+                        "startColumn": 4,
+                        "startOffset": 13606,
+                        "endColumn": 36,
+                        "endOffset": 13638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 347,
+                    "startColumn": 4,
+                    "startOffset": 13643,
+                    "endColumn": 36,
+                    "endOffset": 13675
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 347,
+                        "startColumn": 4,
+                        "startOffset": 13643,
+                        "endColumn": 36,
+                        "endOffset": 13675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 348,
+                    "startColumn": 4,
+                    "startOffset": 13680,
+                    "endColumn": 36,
+                    "endOffset": 13712
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 348,
+                        "startColumn": 4,
+                        "startOffset": 13680,
+                        "endColumn": 36,
+                        "endOffset": 13712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 13717,
+                    "endColumn": 51,
+                    "endOffset": 13764
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 349,
+                        "startColumn": 4,
+                        "startOffset": 13717,
+                        "endColumn": 51,
+                        "endOffset": 13764
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 13769,
+                    "endColumn": 35,
+                    "endOffset": 13800
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 350,
+                        "startColumn": 4,
+                        "startOffset": 13769,
+                        "endColumn": 35,
+                        "endOffset": 13800
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 13805,
+                    "endColumn": 35,
+                    "endOffset": 13836
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 351,
+                        "startColumn": 4,
+                        "startOffset": 13805,
+                        "endColumn": 35,
+                        "endOffset": 13836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 13841,
+                    "endColumn": 37,
+                    "endOffset": 13874
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 352,
+                        "startColumn": 4,
+                        "startOffset": 13841,
+                        "endColumn": 37,
+                        "endOffset": 13874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 353,
+                    "startColumn": 4,
+                    "startOffset": 13879,
+                    "endColumn": 40,
+                    "endOffset": 13915
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 353,
+                        "startColumn": 4,
+                        "startOffset": 13879,
+                        "endColumn": 40,
+                        "endOffset": 13915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 13920,
+                    "endColumn": 46,
+                    "endOffset": 13962
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 354,
+                        "startColumn": 4,
+                        "startOffset": 13920,
+                        "endColumn": 46,
+                        "endOffset": 13962
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 355,
+                    "startColumn": 4,
+                    "startOffset": 13967,
+                    "endColumn": 40,
+                    "endOffset": 14003
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 355,
+                        "startColumn": 4,
+                        "startOffset": 13967,
+                        "endColumn": 40,
+                        "endOffset": 14003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 14008,
+                    "endColumn": 44,
+                    "endOffset": 14048
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 356,
+                        "startColumn": 4,
+                        "startOffset": 14008,
+                        "endColumn": 44,
+                        "endOffset": 14048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 357,
+                    "startColumn": 4,
+                    "startOffset": 14053,
+                    "endColumn": 37,
+                    "endOffset": 14086
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 357,
+                        "startColumn": 4,
+                        "startOffset": 14053,
+                        "endColumn": 37,
+                        "endOffset": 14086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 358,
+                    "startColumn": 4,
+                    "startOffset": 14091,
+                    "endColumn": 36,
+                    "endOffset": 14123
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 358,
+                        "startColumn": 4,
+                        "startOffset": 14091,
+                        "endColumn": 36,
+                        "endOffset": 14123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 359,
+                    "startColumn": 4,
+                    "startOffset": 14128,
+                    "endColumn": 43,
+                    "endOffset": 14167
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 359,
+                        "startColumn": 4,
+                        "startOffset": 14128,
+                        "endColumn": 43,
+                        "endOffset": 14167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 360,
+                    "startColumn": 4,
+                    "startOffset": 14172,
+                    "endColumn": 36,
+                    "endOffset": 14204
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 360,
+                        "startColumn": 4,
+                        "startOffset": 14172,
+                        "endColumn": 36,
+                        "endOffset": 14204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 361,
+                    "startColumn": 4,
+                    "startOffset": 14209,
+                    "endColumn": 37,
+                    "endOffset": 14242
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 361,
+                        "startColumn": 4,
+                        "startOffset": 14209,
+                        "endColumn": 37,
+                        "endOffset": 14242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 362,
+                    "startColumn": 4,
+                    "startOffset": 14247,
+                    "endColumn": 44,
+                    "endOffset": 14287
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 362,
+                        "startColumn": 4,
+                        "startOffset": 14247,
+                        "endColumn": 44,
+                        "endOffset": 14287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 363,
+                    "startColumn": 4,
+                    "startOffset": 14292,
+                    "endColumn": 35,
+                    "endOffset": 14323
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 363,
+                        "startColumn": 4,
+                        "startOffset": 14292,
+                        "endColumn": 35,
+                        "endOffset": 14323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 364,
+                    "startColumn": 4,
+                    "startOffset": 14328,
+                    "endColumn": 46,
+                    "endOffset": 14370
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 364,
+                        "startColumn": 4,
+                        "startOffset": 14328,
+                        "endColumn": 46,
+                        "endOffset": 14370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 365,
+                    "startColumn": 4,
+                    "startOffset": 14375,
+                    "endColumn": 52,
+                    "endOffset": 14423
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 365,
+                        "startColumn": 4,
+                        "startOffset": 14375,
+                        "endColumn": 52,
+                        "endOffset": 14423
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 366,
+                    "startColumn": 4,
+                    "startOffset": 14428,
+                    "endColumn": 39,
+                    "endOffset": 14463
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 366,
+                        "startColumn": 4,
+                        "startOffset": 14428,
+                        "endColumn": 39,
+                        "endOffset": 14463
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 367,
+                    "startColumn": 4,
+                    "startOffset": 14468,
+                    "endColumn": 61,
+                    "endOffset": 14525
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 367,
+                        "startColumn": 4,
+                        "startOffset": 14468,
+                        "endColumn": 61,
+                        "endOffset": 14525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 368,
+                    "startColumn": 4,
+                    "startOffset": 14530,
+                    "endColumn": 69,
+                    "endOffset": 14595
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 368,
+                        "startColumn": 4,
+                        "startOffset": 14530,
+                        "endColumn": 69,
+                        "endOffset": 14595
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 369,
+                    "startColumn": 4,
+                    "startOffset": 14600,
+                    "endColumn": 70,
+                    "endOffset": 14666
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 369,
+                        "startColumn": 4,
+                        "startOffset": 14600,
+                        "endColumn": 70,
+                        "endOffset": 14666
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 370,
+                    "startColumn": 4,
+                    "startOffset": 14671,
+                    "endColumn": 49,
+                    "endOffset": 14716
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 370,
+                        "startColumn": 4,
+                        "startOffset": 14671,
+                        "endColumn": 49,
+                        "endOffset": 14716
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 371,
+                    "startColumn": 4,
+                    "startOffset": 14721,
+                    "endColumn": 47,
+                    "endOffset": 14764
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 371,
+                        "startColumn": 4,
+                        "startOffset": 14721,
+                        "endColumn": 47,
+                        "endOffset": 14764
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 372,
+                    "startColumn": 4,
+                    "startOffset": 14769,
+                    "endColumn": 56,
+                    "endOffset": 14821
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 372,
+                        "startColumn": 4,
+                        "startOffset": 14769,
+                        "endColumn": 56,
+                        "endOffset": 14821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 373,
+                    "startColumn": 4,
+                    "startOffset": 14826,
+                    "endColumn": 54,
+                    "endOffset": 14876
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 373,
+                        "startColumn": 4,
+                        "startOffset": 14826,
+                        "endColumn": 54,
+                        "endOffset": 14876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 374,
+                    "startColumn": 4,
+                    "startOffset": 14881,
+                    "endColumn": 56,
+                    "endOffset": 14933
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 374,
+                        "startColumn": 4,
+                        "startOffset": 14881,
+                        "endColumn": 56,
+                        "endOffset": 14933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 375,
+                    "startColumn": 4,
+                    "startOffset": 14938,
+                    "endColumn": 54,
+                    "endOffset": 14988
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 375,
+                        "startColumn": 4,
+                        "startOffset": 14938,
+                        "endColumn": 54,
+                        "endOffset": 14988
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 376,
+                    "startColumn": 4,
+                    "startOffset": 14993,
+                    "endColumn": 51,
+                    "endOffset": 15040
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 376,
+                        "startColumn": 4,
+                        "startOffset": 14993,
+                        "endColumn": 51,
+                        "endOffset": 15040
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 377,
+                    "startColumn": 4,
+                    "startOffset": 15045,
+                    "endColumn": 40,
+                    "endOffset": 15081
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 377,
+                        "startColumn": 4,
+                        "startOffset": 15045,
+                        "endColumn": 40,
+                        "endOffset": 15081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 378,
+                    "startColumn": 4,
+                    "startOffset": 15086,
+                    "endColumn": 41,
+                    "endOffset": 15123
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 378,
+                        "startColumn": 4,
+                        "startOffset": 15086,
+                        "endColumn": 41,
+                        "endOffset": 15123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 379,
+                    "startColumn": 4,
+                    "startOffset": 15128,
+                    "endColumn": 71,
+                    "endOffset": 15195
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 379,
+                        "startColumn": 4,
+                        "startOffset": 15128,
+                        "endColumn": 71,
+                        "endOffset": 15195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 380,
+                    "startColumn": 4,
+                    "startOffset": 15200,
+                    "endColumn": 74,
+                    "endOffset": 15270
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 380,
+                        "startColumn": 4,
+                        "startOffset": 15200,
+                        "endColumn": 74,
+                        "endOffset": 15270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 381,
+                    "startColumn": 4,
+                    "startOffset": 15275,
+                    "endColumn": 78,
+                    "endOffset": 15349
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 381,
+                        "startColumn": 4,
+                        "startOffset": 15275,
+                        "endColumn": 78,
+                        "endOffset": 15349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 382,
+                    "startColumn": 4,
+                    "startOffset": 15354,
+                    "endColumn": 71,
+                    "endOffset": 15421
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 382,
+                        "startColumn": 4,
+                        "startOffset": 15354,
+                        "endColumn": 71,
+                        "endOffset": 15421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 383,
+                    "startColumn": 4,
+                    "startOffset": 15426,
+                    "endColumn": 71,
+                    "endOffset": 15493
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 383,
+                        "startColumn": 4,
+                        "startOffset": 15426,
+                        "endColumn": 71,
+                        "endOffset": 15493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 384,
+                    "startColumn": 4,
+                    "startOffset": 15498,
+                    "endColumn": 69,
+                    "endOffset": 15563
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 384,
+                        "startColumn": 4,
+                        "startOffset": 15498,
+                        "endColumn": 69,
+                        "endOffset": 15563
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 385,
+                    "startColumn": 4,
+                    "startOffset": 15568,
+                    "endColumn": 70,
+                    "endOffset": 15634
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 385,
+                        "startColumn": 4,
+                        "startOffset": 15568,
+                        "endColumn": 70,
+                        "endOffset": 15634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 386,
+                    "startColumn": 4,
+                    "startOffset": 15639,
+                    "endColumn": 66,
+                    "endOffset": 15701
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 386,
+                        "startColumn": 4,
+                        "startOffset": 15639,
+                        "endColumn": 66,
+                        "endOffset": 15701
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 387,
+                    "startColumn": 4,
+                    "startOffset": 15706,
+                    "endColumn": 73,
+                    "endOffset": 15775
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 387,
+                        "startColumn": 4,
+                        "startOffset": 15706,
+                        "endColumn": 73,
+                        "endOffset": 15775
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 388,
+                    "startColumn": 4,
+                    "startOffset": 15780,
+                    "endColumn": 68,
+                    "endOffset": 15844
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 388,
+                        "startColumn": 4,
+                        "startOffset": 15780,
+                        "endColumn": 68,
+                        "endOffset": 15844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 389,
+                    "startColumn": 4,
+                    "startOffset": 15849,
+                    "endColumn": 62,
+                    "endOffset": 15907
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 389,
+                        "startColumn": 4,
+                        "startOffset": 15849,
+                        "endColumn": 62,
+                        "endOffset": 15907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 390,
+                    "startColumn": 4,
+                    "startOffset": 15912,
+                    "endColumn": 79,
+                    "endOffset": 15987
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 390,
+                        "startColumn": 4,
+                        "startOffset": 15912,
+                        "endColumn": 79,
+                        "endOffset": 15987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 391,
+                    "startColumn": 4,
+                    "startOffset": 15992,
+                    "endColumn": 70,
+                    "endOffset": 16058
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 391,
+                        "startColumn": 4,
+                        "startOffset": 15992,
+                        "endColumn": 70,
+                        "endOffset": 16058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 392,
+                    "startColumn": 4,
+                    "startOffset": 16063,
+                    "endColumn": 70,
+                    "endOffset": 16129
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 392,
+                        "startColumn": 4,
+                        "startOffset": 16063,
+                        "endColumn": 70,
+                        "endOffset": 16129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 393,
+                    "startColumn": 4,
+                    "startOffset": 16134,
+                    "endColumn": 66,
+                    "endOffset": 16196
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 393,
+                        "startColumn": 4,
+                        "startOffset": 16134,
+                        "endColumn": 66,
+                        "endOffset": 16196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 394,
+                    "startColumn": 4,
+                    "startOffset": 16201,
+                    "endColumn": 68,
+                    "endOffset": 16265
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 394,
+                        "startColumn": 4,
+                        "startOffset": 16201,
+                        "endColumn": 68,
+                        "endOffset": 16265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 395,
+                    "startColumn": 4,
+                    "startOffset": 16270,
+                    "endColumn": 73,
+                    "endOffset": 16339
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 395,
+                        "startColumn": 4,
+                        "startOffset": 16270,
+                        "endColumn": 73,
+                        "endOffset": 16339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 396,
+                    "startColumn": 4,
+                    "startOffset": 16344,
+                    "endColumn": 43,
+                    "endOffset": 16383
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 396,
+                        "startColumn": 4,
+                        "startOffset": 16344,
+                        "endColumn": 43,
+                        "endOffset": 16383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 397,
+                    "startColumn": 4,
+                    "startOffset": 16388,
+                    "endColumn": 59,
+                    "endOffset": 16443
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 397,
+                        "startColumn": 4,
+                        "startOffset": 16388,
+                        "endColumn": 59,
+                        "endOffset": 16443
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 398,
+                    "startColumn": 4,
+                    "startOffset": 16448,
+                    "endColumn": 61,
+                    "endOffset": 16505
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 398,
+                        "startColumn": 4,
+                        "startOffset": 16448,
+                        "endColumn": 61,
+                        "endOffset": 16505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 399,
+                    "startColumn": 4,
+                    "startOffset": 16510,
+                    "endColumn": 43,
+                    "endOffset": 16549
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 399,
+                        "startColumn": 4,
+                        "startOffset": 16510,
+                        "endColumn": 43,
+                        "endOffset": 16549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 400,
+                    "startColumn": 4,
+                    "startOffset": 16554,
+                    "endColumn": 47,
+                    "endOffset": 16597
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 400,
+                        "startColumn": 4,
+                        "startOffset": 16554,
+                        "endColumn": 47,
+                        "endOffset": 16597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 401,
+                    "startColumn": 4,
+                    "startOffset": 16602,
+                    "endColumn": 60,
+                    "endOffset": 16658
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 401,
+                        "startColumn": 4,
+                        "startOffset": 16602,
+                        "endColumn": 60,
+                        "endOffset": 16658
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 402,
+                    "startColumn": 4,
+                    "startOffset": 16663,
+                    "endColumn": 62,
+                    "endOffset": 16721
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 402,
+                        "startColumn": 4,
+                        "startOffset": 16663,
+                        "endColumn": 62,
+                        "endOffset": 16721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 403,
+                    "startColumn": 4,
+                    "startOffset": 16726,
+                    "endColumn": 43,
+                    "endOffset": 16765
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 403,
+                        "startColumn": 4,
+                        "startOffset": 16726,
+                        "endColumn": 43,
+                        "endOffset": 16765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 404,
+                    "startColumn": 4,
+                    "startOffset": 16770,
+                    "endColumn": 80,
+                    "endOffset": 16846
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 404,
+                        "startColumn": 4,
+                        "startOffset": 16770,
+                        "endColumn": 80,
+                        "endOffset": 16846
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 405,
+                    "startColumn": 4,
+                    "startOffset": 16851,
+                    "endColumn": 80,
+                    "endOffset": 16927
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 405,
+                        "startColumn": 4,
+                        "startOffset": 16851,
+                        "endColumn": 80,
+                        "endOffset": 16927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 406,
+                    "startColumn": 4,
+                    "startOffset": 16932,
+                    "endColumn": 71,
+                    "endOffset": 16999
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 406,
+                        "startColumn": 4,
+                        "startOffset": 16932,
+                        "endColumn": 71,
+                        "endOffset": 16999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 407,
+                    "startColumn": 4,
+                    "startOffset": 17004,
+                    "endColumn": 88,
+                    "endOffset": 17088
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 407,
+                        "startColumn": 4,
+                        "startOffset": 17004,
+                        "endColumn": 88,
+                        "endOffset": 17088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 408,
+                    "startColumn": 4,
+                    "startOffset": 17093,
+                    "endColumn": 87,
+                    "endOffset": 17176
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 408,
+                        "startColumn": 4,
+                        "startOffset": 17093,
+                        "endColumn": 87,
+                        "endOffset": 17176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 409,
+                    "startColumn": 4,
+                    "startOffset": 17181,
+                    "endColumn": 77,
+                    "endOffset": 17254
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 409,
+                        "startColumn": 4,
+                        "startOffset": 17181,
+                        "endColumn": 77,
+                        "endOffset": 17254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 410,
+                    "startColumn": 4,
+                    "startOffset": 17259,
+                    "endColumn": 80,
+                    "endOffset": 17335
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 410,
+                        "startColumn": 4,
+                        "startOffset": 17259,
+                        "endColumn": 80,
+                        "endOffset": 17335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 411,
+                    "startColumn": 4,
+                    "startOffset": 17340,
+                    "endColumn": 85,
+                    "endOffset": 17421
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 411,
+                        "startColumn": 4,
+                        "startOffset": 17340,
+                        "endColumn": 85,
+                        "endOffset": 17421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 412,
+                    "startColumn": 4,
+                    "startOffset": 17426,
+                    "endColumn": 60,
+                    "endOffset": 17482
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 412,
+                        "startColumn": 4,
+                        "startOffset": 17426,
+                        "endColumn": 60,
+                        "endOffset": 17482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 413,
+                    "startColumn": 4,
+                    "startOffset": 17487,
+                    "endColumn": 53,
+                    "endOffset": 17536
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 413,
+                        "startColumn": 4,
+                        "startOffset": 17487,
+                        "endColumn": 53,
+                        "endOffset": 17536
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 414,
+                    "startColumn": 4,
+                    "startOffset": 17541,
+                    "endColumn": 51,
+                    "endOffset": 17588
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 414,
+                        "startColumn": 4,
+                        "startOffset": 17541,
+                        "endColumn": 51,
+                        "endOffset": 17588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 415,
+                    "startColumn": 4,
+                    "startOffset": 17593,
+                    "endColumn": 65,
+                    "endOffset": 17654
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 415,
+                        "startColumn": 4,
+                        "startOffset": 17593,
+                        "endColumn": 65,
+                        "endOffset": 17654
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 416,
+                    "startColumn": 4,
+                    "startOffset": 17659,
+                    "endColumn": 73,
+                    "endOffset": 17728
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 416,
+                        "startColumn": 4,
+                        "startOffset": 17659,
+                        "endColumn": 73,
+                        "endOffset": 17728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 417,
+                    "startColumn": 4,
+                    "startOffset": 17733,
+                    "endColumn": 64,
+                    "endOffset": 17793
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 417,
+                        "startColumn": 4,
+                        "startOffset": 17733,
+                        "endColumn": 64,
+                        "endOffset": 17793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 418,
+                    "startColumn": 4,
+                    "startOffset": 17798,
+                    "endColumn": 59,
+                    "endOffset": 17853
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 418,
+                        "startColumn": 4,
+                        "startOffset": 17798,
+                        "endColumn": 59,
+                        "endOffset": 17853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 419,
+                    "startColumn": 4,
+                    "startOffset": 17858,
+                    "endColumn": 61,
+                    "endOffset": 17915
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 419,
+                        "startColumn": 4,
+                        "startOffset": 17858,
+                        "endColumn": 61,
+                        "endOffset": 17915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 420,
+                    "startColumn": 4,
+                    "startOffset": 17920,
+                    "endColumn": 54,
+                    "endOffset": 17970
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 420,
+                        "startColumn": 4,
+                        "startOffset": 17920,
+                        "endColumn": 54,
+                        "endOffset": 17970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 421,
+                    "startColumn": 4,
+                    "startOffset": 17975,
+                    "endColumn": 49,
+                    "endOffset": 18020
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 421,
+                        "startColumn": 4,
+                        "startOffset": 17975,
+                        "endColumn": 49,
+                        "endOffset": 18020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 422,
+                    "startColumn": 4,
+                    "startOffset": 18025,
+                    "endColumn": 44,
+                    "endOffset": 18065
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 422,
+                        "startColumn": 4,
+                        "startOffset": 18025,
+                        "endColumn": 44,
+                        "endOffset": 18065
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 423,
+                    "startColumn": 4,
+                    "startOffset": 18070,
+                    "endColumn": 48,
+                    "endOffset": 18114
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 423,
+                        "startColumn": 4,
+                        "startOffset": 18070,
+                        "endColumn": 48,
+                        "endOffset": 18114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 424,
+                    "startColumn": 4,
+                    "startOffset": 18119,
+                    "endColumn": 60,
+                    "endOffset": 18175
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 424,
+                        "startColumn": 4,
+                        "startOffset": 18119,
+                        "endColumn": 60,
+                        "endOffset": 18175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 425,
+                    "startColumn": 4,
+                    "startOffset": 18180,
+                    "endColumn": 60,
+                    "endOffset": 18236
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 425,
+                        "startColumn": 4,
+                        "startOffset": 18180,
+                        "endColumn": 60,
+                        "endOffset": 18236
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 426,
+                    "startColumn": 4,
+                    "startOffset": 18241,
+                    "endColumn": 57,
+                    "endOffset": 18294
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 426,
+                        "startColumn": 4,
+                        "startOffset": 18241,
+                        "endColumn": 57,
+                        "endOffset": 18294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 427,
+                    "startColumn": 4,
+                    "startOffset": 18299,
+                    "endColumn": 57,
+                    "endOffset": 18352
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 427,
+                        "startColumn": 4,
+                        "startOffset": 18299,
+                        "endColumn": 57,
+                        "endOffset": 18352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 428,
+                    "startColumn": 4,
+                    "startOffset": 18357,
+                    "endColumn": 60,
+                    "endOffset": 18413
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 428,
+                        "startColumn": 4,
+                        "startOffset": 18357,
+                        "endColumn": 60,
+                        "endOffset": 18413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 429,
+                    "startColumn": 4,
+                    "startOffset": 18418,
+                    "endColumn": 61,
+                    "endOffset": 18475
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 429,
+                        "startColumn": 4,
+                        "startOffset": 18418,
+                        "endColumn": 61,
+                        "endOffset": 18475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 430,
+                    "startColumn": 4,
+                    "startOffset": 18480,
+                    "endColumn": 57,
+                    "endOffset": 18533
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 430,
+                        "startColumn": 4,
+                        "startOffset": 18480,
+                        "endColumn": 57,
+                        "endOffset": 18533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 431,
+                    "startColumn": 4,
+                    "startOffset": 18538,
+                    "endColumn": 60,
+                    "endOffset": 18594
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 431,
+                        "startColumn": 4,
+                        "startOffset": 18538,
+                        "endColumn": 60,
+                        "endOffset": 18594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 432,
+                    "startColumn": 4,
+                    "startOffset": 18599,
+                    "endColumn": 57,
+                    "endOffset": 18652
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 432,
+                        "startColumn": 4,
+                        "startOffset": 18599,
+                        "endColumn": 57,
+                        "endOffset": 18652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 433,
+                    "startColumn": 4,
+                    "startOffset": 18657,
+                    "endColumn": 38,
+                    "endOffset": 18691
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 433,
+                        "startColumn": 4,
+                        "startOffset": 18657,
+                        "endColumn": 38,
+                        "endOffset": 18691
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 434,
+                    "startColumn": 4,
+                    "startOffset": 18696,
+                    "endColumn": 51,
+                    "endOffset": 18743
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 434,
+                        "startColumn": 4,
+                        "startOffset": 18696,
+                        "endColumn": 51,
+                        "endOffset": 18743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 435,
+                    "startColumn": 4,
+                    "startOffset": 18748,
+                    "endColumn": 58,
+                    "endOffset": 18802
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 435,
+                        "startColumn": 4,
+                        "startOffset": 18748,
+                        "endColumn": 58,
+                        "endOffset": 18802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 436,
+                    "startColumn": 4,
+                    "startOffset": 18807,
+                    "endColumn": 51,
+                    "endOffset": 18854
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 436,
+                        "startColumn": 4,
+                        "startOffset": 18807,
+                        "endColumn": 51,
+                        "endOffset": 18854
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 437,
+                    "startColumn": 4,
+                    "startOffset": 18859,
+                    "endColumn": 56,
+                    "endOffset": 18911
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 437,
+                        "startColumn": 4,
+                        "startOffset": 18859,
+                        "endColumn": 56,
+                        "endOffset": 18911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 438,
+                    "startColumn": 4,
+                    "startOffset": 18916,
+                    "endColumn": 63,
+                    "endOffset": 18975
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 438,
+                        "startColumn": 4,
+                        "startOffset": 18916,
+                        "endColumn": 63,
+                        "endOffset": 18975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 439,
+                    "startColumn": 4,
+                    "startOffset": 18980,
+                    "endColumn": 68,
+                    "endOffset": 19044
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 439,
+                        "startColumn": 4,
+                        "startOffset": 18980,
+                        "endColumn": 68,
+                        "endOffset": 19044
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 440,
+                    "startColumn": 4,
+                    "startOffset": 19049,
+                    "endColumn": 59,
+                    "endOffset": 19104
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 440,
+                        "startColumn": 4,
+                        "startOffset": 19049,
+                        "endColumn": 59,
+                        "endOffset": 19104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 441,
+                    "startColumn": 4,
+                    "startOffset": 19109,
+                    "endColumn": 57,
+                    "endOffset": 19162
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 441,
+                        "startColumn": 4,
+                        "startOffset": 19109,
+                        "endColumn": 57,
+                        "endOffset": 19162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 442,
+                    "startColumn": 4,
+                    "startOffset": 19167,
+                    "endColumn": 57,
+                    "endOffset": 19220
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 442,
+                        "startColumn": 4,
+                        "startOffset": 19167,
+                        "endColumn": 57,
+                        "endOffset": 19220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 443,
+                    "startColumn": 4,
+                    "startOffset": 19225,
+                    "endColumn": 58,
+                    "endOffset": 19279
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 443,
+                        "startColumn": 4,
+                        "startOffset": 19225,
+                        "endColumn": 58,
+                        "endOffset": 19279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 444,
+                    "startColumn": 4,
+                    "startOffset": 19284,
+                    "endColumn": 69,
+                    "endOffset": 19349
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 444,
+                        "startColumn": 4,
+                        "startOffset": 19284,
+                        "endColumn": 69,
+                        "endOffset": 19349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 445,
+                    "startColumn": 4,
+                    "startOffset": 19354,
+                    "endColumn": 59,
+                    "endOffset": 19409
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 445,
+                        "startColumn": 4,
+                        "startOffset": 19354,
+                        "endColumn": 59,
+                        "endOffset": 19409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 446,
+                    "startColumn": 4,
+                    "startOffset": 19414,
+                    "endColumn": 65,
+                    "endOffset": 19475
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 446,
+                        "startColumn": 4,
+                        "startOffset": 19414,
+                        "endColumn": 65,
+                        "endOffset": 19475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 447,
+                    "startColumn": 4,
+                    "startOffset": 19480,
+                    "endColumn": 74,
+                    "endOffset": 19550
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 447,
+                        "startColumn": 4,
+                        "startOffset": 19480,
+                        "endColumn": 74,
+                        "endOffset": 19550
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 448,
+                    "startColumn": 4,
+                    "startOffset": 19555,
+                    "endColumn": 55,
+                    "endOffset": 19606
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 448,
+                        "startColumn": 4,
+                        "startOffset": 19555,
+                        "endColumn": 55,
+                        "endOffset": 19606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 449,
+                    "startColumn": 4,
+                    "startOffset": 19611,
+                    "endColumn": 66,
+                    "endOffset": 19673
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 449,
+                        "startColumn": 4,
+                        "startOffset": 19611,
+                        "endColumn": 66,
+                        "endOffset": 19673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 450,
+                    "startColumn": 4,
+                    "startOffset": 19678,
+                    "endColumn": 77,
+                    "endOffset": 19751
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 450,
+                        "startColumn": 4,
+                        "startOffset": 19678,
+                        "endColumn": 77,
+                        "endOffset": 19751
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 451,
+                    "startColumn": 4,
+                    "startOffset": 19756,
+                    "endColumn": 64,
+                    "endOffset": 19816
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 451,
+                        "startColumn": 4,
+                        "startOffset": 19756,
+                        "endColumn": 64,
+                        "endOffset": 19816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 452,
+                    "startColumn": 4,
+                    "startOffset": 19821,
+                    "endColumn": 54,
+                    "endOffset": 19871
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 452,
+                        "startColumn": 4,
+                        "startOffset": 19821,
+                        "endColumn": 54,
+                        "endOffset": 19871
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 453,
+                    "startColumn": 4,
+                    "startOffset": 19876,
+                    "endColumn": 66,
+                    "endOffset": 19938
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 453,
+                        "startColumn": 4,
+                        "startOffset": 19876,
+                        "endColumn": 66,
+                        "endOffset": 19938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 454,
+                    "startColumn": 4,
+                    "startOffset": 19943,
+                    "endColumn": 59,
+                    "endOffset": 19998
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 454,
+                        "startColumn": 4,
+                        "startOffset": 19943,
+                        "endColumn": 59,
+                        "endOffset": 19998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 455,
+                    "startColumn": 4,
+                    "startOffset": 20003,
+                    "endColumn": 73,
+                    "endOffset": 20072
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 455,
+                        "startColumn": 4,
+                        "startOffset": 20003,
+                        "endColumn": 73,
+                        "endOffset": 20072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 456,
+                    "startColumn": 4,
+                    "startOffset": 20077,
+                    "endColumn": 48,
+                    "endOffset": 20121
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 456,
+                        "startColumn": 4,
+                        "startOffset": 20077,
+                        "endColumn": 48,
+                        "endOffset": 20121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 457,
+                    "startColumn": 4,
+                    "startOffset": 20126,
+                    "endColumn": 57,
+                    "endOffset": 20179
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 457,
+                        "startColumn": 4,
+                        "startOffset": 20126,
+                        "endColumn": 57,
+                        "endOffset": 20179
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 458,
+                    "startColumn": 4,
+                    "startOffset": 20184,
+                    "endColumn": 48,
+                    "endOffset": 20228
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 458,
+                        "startColumn": 4,
+                        "startOffset": 20184,
+                        "endColumn": 48,
+                        "endOffset": 20228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 459,
+                    "startColumn": 4,
+                    "startOffset": 20233,
+                    "endColumn": 57,
+                    "endOffset": 20286
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 459,
+                        "startColumn": 4,
+                        "startOffset": 20233,
+                        "endColumn": 57,
+                        "endOffset": 20286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 460,
+                    "startColumn": 4,
+                    "startOffset": 20291,
+                    "endColumn": 56,
+                    "endOffset": 20343
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 460,
+                        "startColumn": 4,
+                        "startOffset": 20291,
+                        "endColumn": 56,
+                        "endOffset": 20343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 461,
+                    "startColumn": 4,
+                    "startOffset": 20348,
+                    "endColumn": 48,
+                    "endOffset": 20392
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 461,
+                        "startColumn": 4,
+                        "startOffset": 20348,
+                        "endColumn": 48,
+                        "endOffset": 20392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 462,
+                    "startColumn": 4,
+                    "startOffset": 20397,
+                    "endColumn": 62,
+                    "endOffset": 20455
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 462,
+                        "startColumn": 4,
+                        "startOffset": 20397,
+                        "endColumn": 62,
+                        "endOffset": 20455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 463,
+                    "startColumn": 4,
+                    "startOffset": 20460,
+                    "endColumn": 55,
+                    "endOffset": 20511
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 463,
+                        "startColumn": 4,
+                        "startOffset": 20460,
+                        "endColumn": 55,
+                        "endOffset": 20511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 464,
+                    "startColumn": 4,
+                    "startOffset": 20516,
+                    "endColumn": 48,
+                    "endOffset": 20560
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 464,
+                        "startColumn": 4,
+                        "startOffset": 20516,
+                        "endColumn": 48,
+                        "endOffset": 20560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 465,
+                    "startColumn": 4,
+                    "startOffset": 20565,
+                    "endColumn": 56,
+                    "endOffset": 20617
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 465,
+                        "startColumn": 4,
+                        "startOffset": 20565,
+                        "endColumn": 56,
+                        "endOffset": 20617
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 466,
+                    "startColumn": 4,
+                    "startOffset": 20622,
+                    "endColumn": 64,
+                    "endOffset": 20682
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 466,
+                        "startColumn": 4,
+                        "startOffset": 20622,
+                        "endColumn": 64,
+                        "endOffset": 20682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 467,
+                    "startColumn": 4,
+                    "startOffset": 20687,
+                    "endColumn": 53,
+                    "endOffset": 20736
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 467,
+                        "startColumn": 4,
+                        "startOffset": 20687,
+                        "endColumn": 53,
+                        "endOffset": 20736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 468,
+                    "startColumn": 4,
+                    "startOffset": 20741,
+                    "endColumn": 63,
+                    "endOffset": 20800
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 468,
+                        "startColumn": 4,
+                        "startOffset": 20741,
+                        "endColumn": 63,
+                        "endOffset": 20800
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 469,
+                    "startColumn": 4,
+                    "startOffset": 20805,
+                    "endColumn": 48,
+                    "endOffset": 20849
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 469,
+                        "startColumn": 4,
+                        "startOffset": 20805,
+                        "endColumn": 48,
+                        "endOffset": 20849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 470,
+                    "startColumn": 4,
+                    "startOffset": 20854,
+                    "endColumn": 47,
+                    "endOffset": 20897
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 470,
+                        "startColumn": 4,
+                        "startOffset": 20854,
+                        "endColumn": 47,
+                        "endOffset": 20897
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 471,
+                    "startColumn": 4,
+                    "startOffset": 20902,
+                    "endColumn": 50,
+                    "endOffset": 20948
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 471,
+                        "startColumn": 4,
+                        "startOffset": 20902,
+                        "endColumn": 50,
+                        "endOffset": 20948
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 472,
+                    "startColumn": 4,
+                    "startOffset": 20953,
+                    "endColumn": 48,
+                    "endOffset": 20997
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 472,
+                        "startColumn": 4,
+                        "startOffset": 20953,
+                        "endColumn": 48,
+                        "endOffset": 20997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 473,
+                    "startColumn": 4,
+                    "startOffset": 21002,
+                    "endColumn": 64,
+                    "endOffset": 21062
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 473,
+                        "startColumn": 4,
+                        "startOffset": 21002,
+                        "endColumn": 64,
+                        "endOffset": 21062
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 474,
+                    "startColumn": 4,
+                    "startOffset": 21067,
+                    "endColumn": 64,
+                    "endOffset": 21127
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 474,
+                        "startColumn": 4,
+                        "startOffset": 21067,
+                        "endColumn": 64,
+                        "endOffset": 21127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 475,
+                    "startColumn": 4,
+                    "startOffset": 21132,
+                    "endColumn": 59,
+                    "endOffset": 21187
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 475,
+                        "startColumn": 4,
+                        "startOffset": 21132,
+                        "endColumn": 59,
+                        "endOffset": 21187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 476,
+                    "startColumn": 4,
+                    "startOffset": 21192,
+                    "endColumn": 57,
+                    "endOffset": 21245
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 476,
+                        "startColumn": 4,
+                        "startOffset": 21192,
+                        "endColumn": 57,
+                        "endOffset": 21245
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 477,
+                    "startColumn": 4,
+                    "startOffset": 21250,
+                    "endColumn": 61,
+                    "endOffset": 21307
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 477,
+                        "startColumn": 4,
+                        "startOffset": 21250,
+                        "endColumn": 61,
+                        "endOffset": 21307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 478,
+                    "startColumn": 4,
+                    "startOffset": 21312,
+                    "endColumn": 56,
+                    "endOffset": 21364
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 478,
+                        "startColumn": 4,
+                        "startOffset": 21312,
+                        "endColumn": 56,
+                        "endOffset": 21364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 479,
+                    "startColumn": 4,
+                    "startOffset": 21369,
+                    "endColumn": 44,
+                    "endOffset": 21409
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 479,
+                        "startColumn": 4,
+                        "startOffset": 21369,
+                        "endColumn": 44,
+                        "endOffset": 21409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 480,
+                    "startColumn": 4,
+                    "startOffset": 21414,
+                    "endColumn": 75,
+                    "endOffset": 21485
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 480,
+                        "startColumn": 4,
+                        "startOffset": 21414,
+                        "endColumn": 75,
+                        "endOffset": 21485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 481,
+                    "startColumn": 4,
+                    "startOffset": 21490,
+                    "endColumn": 48,
+                    "endOffset": 21534
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 481,
+                        "startColumn": 4,
+                        "startOffset": 21490,
+                        "endColumn": 48,
+                        "endOffset": 21534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 482,
+                    "startColumn": 4,
+                    "startOffset": 21539,
+                    "endColumn": 54,
+                    "endOffset": 21589
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 482,
+                        "startColumn": 4,
+                        "startOffset": 21539,
+                        "endColumn": 54,
+                        "endOffset": 21589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 483,
+                    "startColumn": 4,
+                    "startOffset": 21594,
+                    "endColumn": 51,
+                    "endOffset": 21641
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 483,
+                        "startColumn": 4,
+                        "startOffset": 21594,
+                        "endColumn": 51,
+                        "endOffset": 21641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 484,
+                    "startColumn": 4,
+                    "startOffset": 21646,
+                    "endColumn": 60,
+                    "endOffset": 21702
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 484,
+                        "startColumn": 4,
+                        "startOffset": 21646,
+                        "endColumn": 60,
+                        "endOffset": 21702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 485,
+                    "startColumn": 4,
+                    "startOffset": 21707,
+                    "endColumn": 60,
+                    "endOffset": 21763
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 485,
+                        "startColumn": 4,
+                        "startOffset": 21707,
+                        "endColumn": 60,
+                        "endOffset": 21763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 486,
+                    "startColumn": 4,
+                    "startOffset": 21768,
+                    "endColumn": 68,
+                    "endOffset": 21832
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 486,
+                        "startColumn": 4,
+                        "startOffset": 21768,
+                        "endColumn": 68,
+                        "endOffset": 21832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 487,
+                    "startColumn": 4,
+                    "startOffset": 21837,
+                    "endColumn": 63,
+                    "endOffset": 21896
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 487,
+                        "startColumn": 4,
+                        "startOffset": 21837,
+                        "endColumn": 63,
+                        "endOffset": 21896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 488,
+                    "startColumn": 4,
+                    "startOffset": 21901,
+                    "endColumn": 64,
+                    "endOffset": 21961
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 488,
+                        "startColumn": 4,
+                        "startOffset": 21901,
+                        "endColumn": 64,
+                        "endOffset": 21961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 489,
+                    "startColumn": 4,
+                    "startOffset": 21966,
+                    "endColumn": 73,
+                    "endOffset": 22035
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 489,
+                        "startColumn": 4,
+                        "startOffset": 21966,
+                        "endColumn": 73,
+                        "endOffset": 22035
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 490,
+                    "startColumn": 4,
+                    "startOffset": 22040,
+                    "endColumn": 77,
+                    "endOffset": 22113
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 490,
+                        "startColumn": 4,
+                        "startOffset": 22040,
+                        "endColumn": 77,
+                        "endOffset": 22113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 491,
+                    "startColumn": 4,
+                    "startOffset": 22118,
+                    "endColumn": 46,
+                    "endOffset": 22160
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 491,
+                        "startColumn": 4,
+                        "startOffset": 22118,
+                        "endColumn": 46,
+                        "endOffset": 22160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 492,
+                    "startColumn": 4,
+                    "startOffset": 22165,
+                    "endColumn": 49,
+                    "endOffset": 22210
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 492,
+                        "startColumn": 4,
+                        "startOffset": 22165,
+                        "endColumn": 49,
+                        "endOffset": 22210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 493,
+                    "startColumn": 4,
+                    "startOffset": 22215,
+                    "endColumn": 58,
+                    "endOffset": 22269
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 493,
+                        "startColumn": 4,
+                        "startOffset": 22215,
+                        "endColumn": 58,
+                        "endOffset": 22269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 494,
+                    "startColumn": 4,
+                    "startOffset": 22274,
+                    "endColumn": 56,
+                    "endOffset": 22326
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 494,
+                        "startColumn": 4,
+                        "startOffset": 22274,
+                        "endColumn": 56,
+                        "endOffset": 22326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 495,
+                    "startColumn": 4,
+                    "startOffset": 22331,
+                    "endColumn": 53,
+                    "endOffset": 22380
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 495,
+                        "startColumn": 4,
+                        "startOffset": 22331,
+                        "endColumn": 53,
+                        "endOffset": 22380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 496,
+                    "startColumn": 4,
+                    "startOffset": 22385,
+                    "endColumn": 50,
+                    "endOffset": 22431
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 496,
+                        "startColumn": 4,
+                        "startOffset": 22385,
+                        "endColumn": 50,
+                        "endOffset": 22431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 497,
+                    "startColumn": 4,
+                    "startOffset": 22436,
+                    "endColumn": 50,
+                    "endOffset": 22482
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 497,
+                        "startColumn": 4,
+                        "startOffset": 22436,
+                        "endColumn": 50,
+                        "endOffset": 22482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 498,
+                    "startColumn": 4,
+                    "startOffset": 22487,
+                    "endColumn": 49,
+                    "endOffset": 22532
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 498,
+                        "startColumn": 4,
+                        "startOffset": 22487,
+                        "endColumn": 49,
+                        "endOffset": 22532
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 499,
+                    "startColumn": 4,
+                    "startOffset": 22537,
+                    "endColumn": 62,
+                    "endOffset": 22595
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 499,
+                        "startColumn": 4,
+                        "startOffset": 22537,
+                        "endColumn": 62,
+                        "endOffset": 22595
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 500,
+                    "startColumn": 4,
+                    "startOffset": 22600,
+                    "endColumn": 42,
+                    "endOffset": 22638
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 500,
+                        "startColumn": 4,
+                        "startOffset": 22600,
+                        "endColumn": 42,
+                        "endOffset": 22638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 501,
+                    "startColumn": 4,
+                    "startOffset": 22643,
+                    "endColumn": 36,
+                    "endOffset": 22675
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 501,
+                        "startColumn": 4,
+                        "startOffset": 22643,
+                        "endColumn": 36,
+                        "endOffset": 22675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 502,
+                    "startColumn": 4,
+                    "startOffset": 22680,
+                    "endColumn": 55,
+                    "endOffset": 22731
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 502,
+                        "startColumn": 4,
+                        "startOffset": 22680,
+                        "endColumn": 55,
+                        "endOffset": 22731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 503,
+                    "startColumn": 4,
+                    "startOffset": 22736,
+                    "endLine": 511,
+                    "endColumn": 12,
+                    "endOffset": 23362
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 503,
+                        "startColumn": 4,
+                        "startOffset": 22736,
+                        "endLine": 511,
+                        "endColumn": 12,
+                        "endOffset": 23362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 512,
+                    "startColumn": 4,
+                    "startOffset": 23367,
+                    "endLine": 515,
+                    "endColumn": 12,
+                    "endOffset": 23584
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 512,
+                        "startColumn": 4,
+                        "startOffset": 23367,
+                        "endLine": 515,
+                        "endColumn": 12,
+                        "endOffset": 23584
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 516,
+                    "startColumn": 4,
+                    "startOffset": 23589,
+                    "endLine": 519,
+                    "endColumn": 12,
+                    "endOffset": 23792
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 516,
+                        "startColumn": 4,
+                        "startOffset": 23589,
+                        "endLine": 519,
+                        "endColumn": 12,
+                        "endOffset": 23792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 520,
+                    "startColumn": 4,
+                    "startOffset": 23797,
+                    "endLine": 524,
+                    "endColumn": 12,
+                    "endOffset": 24060
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 520,
+                        "startColumn": 4,
+                        "startOffset": 23797,
+                        "endLine": 524,
+                        "endColumn": 12,
+                        "endOffset": 24060
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 525,
+                    "startColumn": 4,
+                    "startOffset": 24065,
+                    "endLine": 533,
+                    "endColumn": 12,
+                    "endOffset": 24555
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 525,
+                        "startColumn": 4,
+                        "startOffset": 24065,
+                        "endLine": 533,
+                        "endColumn": 12,
+                        "endOffset": 24555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 534,
+                    "startColumn": 4,
+                    "startOffset": 24560,
+                    "endLine": 536,
+                    "endColumn": 12,
+                    "endOffset": 24638
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 534,
+                        "startColumn": 4,
+                        "startOffset": 24560,
+                        "endLine": 536,
+                        "endColumn": 12,
+                        "endOffset": 24638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 537,
+                    "startColumn": 4,
+                    "startOffset": 24643,
+                    "endLine": 539,
+                    "endColumn": 12,
+                    "endOffset": 24720
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 537,
+                        "startColumn": 4,
+                        "startOffset": 24643,
+                        "endLine": 539,
+                        "endColumn": 12,
+                        "endOffset": 24720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 540,
+                    "startColumn": 4,
+                    "startOffset": 24725,
+                    "endLine": 542,
+                    "endColumn": 12,
+                    "endOffset": 24898
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 540,
+                        "startColumn": 4,
+                        "startOffset": 24725,
+                        "endLine": 542,
+                        "endColumn": 12,
+                        "endOffset": 24898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 543,
+                    "startColumn": 4,
+                    "startOffset": 24903,
+                    "endLine": 545,
+                    "endColumn": 12,
+                    "endOffset": 24981
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 543,
+                        "startColumn": 4,
+                        "startOffset": 24903,
+                        "endLine": 545,
+                        "endColumn": 12,
+                        "endOffset": 24981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 546,
+                    "startColumn": 4,
+                    "startOffset": 24986,
+                    "endLine": 550,
+                    "endColumn": 12,
+                    "endOffset": 25269
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 546,
+                        "startColumn": 4,
+                        "startOffset": 24986,
+                        "endLine": 550,
+                        "endColumn": 12,
+                        "endOffset": 25269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 551,
+                    "startColumn": 4,
+                    "startOffset": 25274,
+                    "endLine": 553,
+                    "endColumn": 12,
+                    "endOffset": 25351
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 551,
+                        "startColumn": 4,
+                        "startOffset": 25274,
+                        "endLine": 553,
+                        "endColumn": 12,
+                        "endOffset": 25351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 554,
+                    "startColumn": 4,
+                    "startOffset": 25356,
+                    "endLine": 561,
+                    "endColumn": 12,
+                    "endOffset": 25813
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 554,
+                        "startColumn": 4,
+                        "startOffset": 25356,
+                        "endLine": 561,
+                        "endColumn": 12,
+                        "endOffset": 25813
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 562,
+                    "startColumn": 4,
+                    "startOffset": 25818,
+                    "endLine": 566,
+                    "endColumn": 12,
+                    "endOffset": 26067
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 562,
+                        "startColumn": 4,
+                        "startOffset": 25818,
+                        "endLine": 566,
+                        "endColumn": 12,
+                        "endOffset": 26067
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 567,
+                    "startColumn": 4,
+                    "startOffset": 26072,
+                    "endLine": 571,
+                    "endColumn": 12,
+                    "endOffset": 26319
+                },
+                "from": {
+                    "file": "C:\\Users\\Justin\\AndroidStudioProjects\\happiness100_after_0926\\Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 567,
+                        "startColumn": 4,
+                        "startOffset": 26072,
+                        "endLine": 571,
+                        "endColumn": 12,
+                        "endOffset": 26319
+                    }
+                }
+            }
+        ]
+    }
+]

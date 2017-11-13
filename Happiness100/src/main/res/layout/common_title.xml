@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/title_view"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="8dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/bg_title_common_red">
+
+
+    <LinearLayout
+        android:id="@+id/title_view_back"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/back_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_array_left"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            style="@style/Font_Normal_White"
+            android:layout_centerVertical="true"
+            android:id="@+id/text_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/backButton"
+            android:text="返回"
+            />
+    </LinearLayout>
+
+    <TextView
+        style="@style/Font_MAX_White"
+        android:id="@+id/title_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:maxEms="7"
+        android:text="标题"
+        />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/title_view_right"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_right"
+            android:src="@drawable/ic_contact_new_friends"
+            />
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/text_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            style="@style/Font_Normal_White"
+            />
+    </RelativeLayout>
+</RelativeLayout>

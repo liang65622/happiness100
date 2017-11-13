@@ -1,0 +1,218 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:screenOrientation">portrait</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MINE" parent="AppTheme.NoActionBar">
+        <item name="android:screenOrientation">portrait</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    .
+
+    <style name="AppTheme.MineBar" parent="AppTheme.NoActionBar">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="item_padding">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="dialogFullscreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="ResultButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ShareButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AnimBottomIn" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="AnimRightIn" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_left_in</item>
+        <item name="android:windowExitAnimation">@anim/push_right_out</item>
+    </style>
+
+
+    <style name="btn_light_red">
+        <item name="android:background">@drawable/btn_pale_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="btn_common_red">
+        <item name="android:background">@drawable/btn_pale_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="btn_red_deep">
+        <item name="android:background">@drawable/btn_red_deep</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="btn_white">
+        <item name="android:background">@drawable/btn_white</item>
+        <item name="android:textColor">@color/gray_deep_common</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="bg_search">
+        <item name="android:background">@drawable/bg_search</item>
+        <item name="android:layout_height">36dp</item>
+    </style>
+
+    <!-- 右上角popupwindow -->
+    <style name="AnimationPreview">
+    </style>
+
+    <style name="fill_fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <!-- 加载滚动条样式 -->
+    <style name="loading">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progressloading</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+
+    <!--大字-->
+    <style name="Font_MAX_Black">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Font_MAX_Gray">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="Font_MAX_White">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--中字-->
+    <style name="Font_Middle_Black">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Font_Middle_Gray">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="Font_Middle_Pink">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/redpink</item>
+    </style>
+
+    <!-- 普通列表里的字-->
+    <style name="Font_Normal_Black">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Font_Normal_Pink">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/redpink</item>
+    </style>
+
+    <style name="Font_Normal_Gray">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="Font_Normal_White">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+    <!-- 普通输入框里的字-->
+    <style name="Font_Normal_Edit">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+
+    <!-- 按钮字-->
+    <style name="Font_Button_Black">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Font_Button_Gray">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="Font_Button_White">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 描述字-->
+    <style name="Font_Desc">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="Font_Desc_Black">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Font_Desc_Blue">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/agreenmentblue</item>
+    </style>
+
+    <!--发现标题-->
+    <style name="Font_Discover_Title">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+</resources>

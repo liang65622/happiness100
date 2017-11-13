@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include
+        layout="@layout/common_title">
+    </include>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mobile_big"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Font_Normal_Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="你的手机号：18620376646"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/text_mobile_number"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/Font_Desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已启用手机通讯录匹配。如果你的通讯录中有朋友注册了幸福100，系统会通知你。"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:id="@id/text_mobile"
+            android:textColor="@color/gray"
+            />
+    </RelativeLayout>
+
+    <Button
+        style="@style/Font_Button_White"
+        android:id="@+id/look_book_button"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/btn_common_red"
+        android:text="查看通讯录"
+        />
+
+    <Button
+        style="@style/Font_Button_Black"
+        android:id="@+id/change_mobileNumber_button"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/btn_common_white"
+        android:text="更换手机号"
+        />
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            >
+
+            <ImageView
+                android:id="@+id/iv_rank_hight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/iv_rank_no2"/>
+
+            <TextView
+                android:id="@+id/tv_rank_num"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_rank_default"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="8sp"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_family_img"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="13dp"
+            android:paddingTop="2dp">
+
+            <TextView
+                android:id="@+id/tv_family_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ddddddd"
+                android:textColor="@color/gray_common"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/tv_creater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="ddddddd"
+                android:textColor="@color/gray_light_common"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_family_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:textSize="8sp"/>
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/transparent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pop_bg"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/addfriendsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_add1"
+                android:id="@+id/friend"
+                />
+
+            <TextView
+                style="@style/Font_Normal_White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加朋友"
+                android:layout_toRightOf="@+id/friend"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"></TextView>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/tm_white"
+            ></View>
+        <RelativeLayout
+            android:id="@+id/qunliaoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_group_normal"
+                android:id="@+id/qunliao"
+                />
+
+            <TextView
+                style="@style/Font_Normal_White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发起群聊"
+                android:layout_toRightOf="@+id/qunliao"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/tm_white"
+            ></View>
+        <RelativeLayout
+            android:id="@+id/codeAddView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_sm"
+                android:id="@+id/codeAdd"
+                />
+
+            <TextView
+                style="@style/Font_Normal_White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="扫码添加"
+                android:layout_toRightOf="@+id/codeAdd"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/tm_white"
+            ></View>
+        <RelativeLayout
+            android:id="@+id/mycodeView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_qrcode"
+                android:id="@+id/mycode"
+                />
+
+            <TextView
+                style="@style/Font_Normal_White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的二维码"
+                android:layout_toRightOf="@+id/mycode"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

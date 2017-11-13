@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        layout="@layout/common_title"/>
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Font_Normal_Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="群聊名称"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.happiness100.app.ui.widget.ClearWriteEditText
+            style="@style/Font_Normal_Edit"
+            android:id="@+id/edit"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:maxLength="15"
+            android:text=""
+            />
+    </RelativeLayout>
+
+</LinearLayout>

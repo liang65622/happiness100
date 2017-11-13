@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Happiness100" />
+            <option value="$PROJECT_DIR$/MPChartLib" />
+            <option value="$PROJECT_DIR$/Rong_Cloud_Android_IMKit_SDK_v2_6_7_stable" />
+            <option value="$PROJECT_DIR$/countryselector" />
+            <option value="$PROJECT_DIR$/lib-bither-compress" />
+            <option value="$PROJECT_DIR$/lib_fast" />
+            <option value="$PROJECT_DIR$/scalemodule" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

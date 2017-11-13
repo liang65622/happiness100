@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:layout_height="match_parent"
+                tools:context="com.happiness100.app.ui.activity.RegisterActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/view_edit_login"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/common_divider"
+        android:orientation="vertical"
+
+        android:showDividers="beginning|middle"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:textColor="@color/common_red"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"/>
+
+
+            <ImageView
+                android:id="@+id/iv_head"
+                android:layout_width="66dp"
+                android:src="@drawable/iv_select_photo_normal"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="66dp"/>
+
+            <TextView
+                android:id="@+id/tv_phone_num"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/common_divider"
+            android:orientation="vertical"
+            android:paddingLeft="6dp"
+            android:showDividers="middle">
+
+            <RelativeLayout
+                android:id="@+id/view_select_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/country"/>
+
+                <TextView
+                    android:id="@+id/tv_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="145dp"
+                    android:text="中国"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_arrow_right"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:text="@string/password"
+                    />
+
+                <EditText
+                    android:id="@+id/edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/common_light_gray"
+                    android:background="@null"
+                    android:textSize="14sp"
+                    android:hint="@string/pls_input_password"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/btn_light_red"
+            android:text="@string/btn_login"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_login_has_problem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/common_light_blue"
+        android:layout_below="@+id/view_edit_login"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login_has_problem"/>
+
+    <TextView
+        android:id="@+id/tv_more"
+        android:padding="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/common_light_blue"
+        android:layout_width="wrap_content"
+        android:text="@string/more"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+<include
+    layout="@layout/common_title"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/space_ListItem"
+            android:text="短信验证码已发送，请填写验证码"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textColor="@color/gray"
+            />
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:divider="@drawable/common_divider"
+    android:showDividers="middle">
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_ListItem">
+
+        <TextView
+            style="@style/Font_Normal_Black"
+            android:layout_centerVertical="true"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="手机号"
+            android:id="@+id/mobile_tital"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            style="@style/Font_Normal_Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_toRightOf="@+id/mobile_tital"
+            android:layout_alignBaseline="@+id/mobile_tital"
+            android:id="@+id/mobile_text"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_ListItem">
+
+        <TextView
+            style="@style/Font_Normal_Black"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="验证码"
+            android:layout_centerVertical="true"
+            android:id="@+id/mobile_verify_tital"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <EditText
+            style="@style/Font_Normal_Edit"
+            android:id="@+id/mobile_verify_code"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mobile_verify_tital"
+            android:inputType="number"
+            android:background="@null"
+            android:hint="请输入验证码"/>
+    </RelativeLayout>
+</LinearLayout>
+
+    <Button
+        style="@style/Font_Button_White"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:id="@+id/commit"
+        android:background="@drawable/btn_common_green_9sprite_3"
+
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/help"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Font_Normal_Gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/help_text"
+            android:text="收不到验证码?"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

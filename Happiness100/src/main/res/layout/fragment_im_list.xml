@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_title_common_red"
+        >
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/title_expand_item"
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:id="@+id/title_expand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/icon_add3"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/title_address_Item"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/title_expand_item">
+
+            <ImageView
+                android:id="@+id/title_address_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_txl"/>
+
+            <ImageView
+                android:id="@+id/expand_warn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/icon_white"
+
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/conversationlist"
+            android:name="io.rong.imkit.fragment.ConversationListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/abc_action_bar_title_item"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

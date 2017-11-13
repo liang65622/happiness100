@@ -1,0 +1,106 @@
+{
+  "familyIdIndex": 3,
+  "uIndex": 8,
+  "familyUnitMap": {
+    "1": {
+      "faId": 1,
+      "father": 1,
+      "mother": 2,
+      "children": [
+        3,
+        4
+      ]
+    },
+    "2": {
+      "faId": 2,
+      "father": 5,
+      "mother": 6,
+      "children": []
+    },
+    "3": {
+      "faId": 3,
+      "father": 7,
+      "mother": 8,
+      "children": []
+    }
+  },
+  "pUserId2IndexMap": {
+    "1": 1
+  },
+  "uIndex2Punit": {
+    "1": {
+      "unitId": 1,
+      "userId": 1,
+      "uFaId": 2,
+      "dFaId": 1,
+      "rank": 102,
+      "cw": "自己",
+      "nameNote": ""
+    },
+    "2": {
+      "unitId": 2,
+      "userId": 0,
+      "uFaId": 3,
+      "dFaId": 1,
+      "rank": 2,
+      "cw": "",
+      "nameNote": ""
+    },
+    "3": {
+      "unitId": 3,
+      "userId": 0,
+      "uFaId": 1,
+      "dFaId": 0,
+      "rank": 1,
+      "cw": "",
+      "nameNote": ""
+    },
+    "4": {
+      "unitId": 4,
+      "userId": 0,
+      "uFaId": 1,
+      "dFaId": 0,
+      "rank": 2,
+      "cw": "",
+      "nameNote": ""
+    },
+    "5": {
+      "unitId": 5,
+      "userId": 0,
+      "uFaId": 0,
+      "dFaId": 2,
+      "rank": 101,
+      "cw": "",
+      "nameNote": ""
+    },
+    "6": {
+      "unitId": 6,
+      "userId": 0,
+      "uFaId": 0,
+      "dFaId": 2,
+      "rank": 3,
+      "cw": "",
+      "nameNote": ""
+    },
+    "7": {
+      "unitId": 7,
+      "userId": 0,
+      "uFaId": 0,
+      "dFaId": 3,
+      "rank": 101,
+      "cw": "",
+      "nameNote": ""
+    },
+    "8": {
+      "unitId": 8,
+      "userId": 0,
+      "uFaId": 0,
+      "dFaId": 3,
+      "rank": 3,
+      "cw": "",
+      "nameNote": ""
+    }
+  },
+  "blankPUnitCount": 7,
+  "creater": 0
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_main_title"
+        />
+
+    <Button
+        android:id="@+id/view_search_family"
+        style="@style/bg_search"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/rp_search_bar_icon_normal"
+        android:gravity="center"
+        android:hint="搜索其他家族"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="你还没有家族哦，赶快找到你的家族加入吧"/>
+
+    <android.support.v4.view.ViewPager
+        android:paddingTop="16dp"
+        android:id="@+id/vp_contacts_family"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:visibility="gone"></android.support.v4.view.ViewPager>
+
+
+
+    <Button
+        android:id="@+id/btn_create_family"
+        style="@style/btn_red_deep"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="创建家族"/>
+</LinearLayout>

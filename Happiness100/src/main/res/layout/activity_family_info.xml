@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/common_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="12dp">
+
+        <ImageView
+            android:id="@+id/iv_family_img"
+            android:layout_width="52dp"
+            android:layout_height="52dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/tv_family_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_deep_common"/>
+
+            <TextView
+                android:id="@+id/tv_creater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:textColor="@color/gray_common"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="16dp">
+
+
+        <TextView
+            android:id="@+id/tv_gonggao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="家族公告："
+            android:textColor="@color/gray_deep_common"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/edit_family_remark"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_edit_bound"
+            android:gravity="top"
+            android:maxLength="100"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/gray_common"
+            android:textSize="13sp"/>
+
+        <LinearLayout
+            android:id="@+id/view_family_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_happiness_lv"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="幸福LV：999"
+                    android:textColor="@color/gray_deep_common"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+
+                    <ProgressBar
+                        android:id="@+id/pb_happiness"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_horizontal"
+                        android:progressDrawable="@drawable/progressbar_color"/>
+
+                    <com.happiness100.app.ui.widget.StrokeTextView
+                        android:id="@+id/tv_happiness_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="6dp"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_xiaosun_lv"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="孝顺LV：999"
+                    android:textColor="@color/gray_deep_common"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ProgressBar
+                        android:id="@+id/pb_xiaosun"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_horizontal"
+                        android:progressDrawable="@drawable/progressbar_color"
+                        android:indeterminate="false"/>
+
+
+                    <com.happiness100.app.ui.widget.StrokeTextView
+                        android:id="@+id/tv_xiaosun_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="6dp"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_guanai_lv"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="关爱LV：999"
+                    android:textColor="@color/gray_deep_common"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+
+                    <ProgressBar
+                        android:id="@+id/pb_guanai"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_horizontal"
+                        android:progressDrawable="@drawable/progressbar_color"/>
+
+                    <com.happiness100.app.ui.widget.StrokeTextView
+                        android:id="@+id/tv_guanai_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="6dp"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_cishan_lv"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="慈善LV：999"
+                    android:textColor="@color/gray_deep_common"
+                    />
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+
+                    <ProgressBar
+                        android:id="@+id/pb_cishan"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_horizontal"
+                        android:progressDrawable="@drawable/progressbar_color"/>
+
+                    <com.happiness100.app.ui.widget.StrokeTextView
+                        android:id="@+id/tv_cishan_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="6dp"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ll_index"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btn_exit_family"
+                style="@style/btn_red_deep"
+                android:layout_width="match_parent"
+                android:text="退出家族"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_jion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btn_jion_family"
+                style="@style/btn_red_deep"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="加入家族"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

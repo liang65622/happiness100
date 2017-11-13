@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+
+    <include
+        layout="@layout/common_title"></include>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:divider="@drawable/common_divider"
+    android:showDividers="middle">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_ListItem"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/age_view">
+        <TextView
+            style="@style/Font_Normal_Black"
+            android:id="@+id/text_age"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="年龄"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:gravity="center_vertical"
+            style="@style/Font_Desc"
+            android:id="@+id/edit_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/text_age"
+            android:layout_toEndOf="@+id/text_age"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_ListItem"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/constellation_view">
+
+        <TextView
+            style="@style/Font_Normal_Black"
+            android:id="@+id/text_constellation"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="星座"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:gravity="center_vertical"
+            style="@style/Font_Desc"
+            android:id="@+id/edit_constellation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/text_constellation"
+            android:background="@null"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>
